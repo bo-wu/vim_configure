@@ -169,7 +169,7 @@ let s:C_Ctrl_j								= 'on'
 let s:C_FormatDate						= '%x'
 let s:C_FormatTime						= '%X'
 let s:C_FormatYear						= '%Y'
-let s:C_SourceCodeExtensions  = 'c cc cp cxx cpp CPP c++ C i ii' "add for header files
+let s:C_SourceCodeExtensions  = 'c h cc cp cxx cpp hpp CPP c++ C i ii' "add for header files
 let g:C_MapLeader							= '\'
 let s:C_CppcheckSeverity			= 'all'
 "

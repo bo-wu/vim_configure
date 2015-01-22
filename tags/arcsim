@@ -1,0 +1,1184 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	remesh.cpp	/^    Mat<n,n> A;$/;"	m	struct:LeastSquares	file:
+AUGLAG_HPP	auglag.hpp	28;"	d
+AccelStruct	collisionutil.cpp	/^AccelStruct::AccelStruct (const Mesh &mesh, bool ccd):$/;"	f	class:AccelStruct
+AccelStruct	collisionutil.hpp	/^struct AccelStruct {$/;"	s
+BLOCKVECTORS_HPP	blockvectors.hpp	28;"	d
+BOX	bvh.hpp	257;"	d
+BVHCallback	collisionutil.hpp	/^typedef void (*BVHCallback) (const Face *face0, const Face *face1);$/;"	t
+BVHNode	collisionutil.hpp	/^typedef DeformBVHNode BVHNode;$/;"	t
+BVHTree	collisionutil.hpp	/^typedef DeformBVHTree BVHTree;$/;"	t
+Bary	separate.cpp	/^typedef Vec3 Bary; \/\/ barycentric coordinates$/;"	t	file:
+Bary	separateobs.cpp	/^typedef Vec3 Bary; \/\/ barycentric coordinates$/;"	t	namespace:SO	file:
+BendingData	dde.hpp	/^struct BendingData {double d[3][5];};$/;"	s
+BodyFrame	mot_parser.hpp	/^struct BodyFrame$/;"	s
+BodyFrameVector	mot_parser.hpp	/^typedef std::vector<BodyFrame> BodyFrameVector;$/;"	t
+BodyVector	mot_parser.hpp	/^typedef std::vector<BodyFrameVector> BodyVector; $/;"	t
+BothPanes	display.cpp	/^static enum {MsPaneOnly, WsPaneOnly, BothPanes} draw_panes = BothPanes;$/;"	e	enum:__anon1	file:
+Box	conf.cpp	/^    Box () {}$/;"	f	struct:Box
+Box	conf.cpp	/^    Box (const Vec2 &umin, const Vec2 &umax): umin(umin), umax(umax) {}$/;"	f	struct:Box
+Box	conf.cpp	/^struct Box {$/;"	s	file:
+CLOTH_HPP	cloth.hpp	28;"	d
+COLLISIONUTIL_HPP	collisionutil.hpp	28;"	d
+COLLISION_HPP	collision.hpp	28;"	d
+CONF_HPP	conf.hpp	28;"	d
+CONSTRAINT_HPP	constraint.hpp	28;"	d
+Cloth	cloth.hpp	/^struct Cloth {$/;"	s
+Collision	simulation.hpp	/^    enum {Proximity, Physics, StrainLimiting, Collision, Remeshing, Separation,$/;"	e	enum:Simulation::__anon4
+Constraint	constraint.hpp	/^struct Constraint {$/;"	s
+Construct	bvh.cpp	/^DeformBVHTree::Construct()$/;"	f	class:DeformBVHTree
+DDE_HPP	dde.hpp	28;"	d
+DISPLAYPHYSICS_HPP	displayphysics.hpp	28;"	d
+DISPLAYREPLAY_HPP	displayreplay.hpp	28;"	d
+DISPLAYTESTING_HPP	displaytesting.hpp	28;"	d
+DISPLAY_HPP	display.hpp	28;"	d
+DTransformation	transformation.hpp	/^typedef std::pair<Transformation,Transformation> DTransformation;$/;"	t
+DYNAMICREMESH_HPP	dynamicremesh.hpp	28;"	d
+DeformBVHNode	bvh.cpp	/^DeformBVHNode::DeformBVHNode()$/;"	f	class:DeformBVHNode
+DeformBVHNode	bvh.cpp	/^DeformBVHNode::DeformBVHNode(DeformBVHNode *parent, Face **lst, unsigned int lst_num, BOX *tri_boxes, vec3f *tri_centers)$/;"	f	class:DeformBVHNode
+DeformBVHNode	bvh.cpp	/^DeformBVHNode::DeformBVHNode(DeformBVHNode *parent, Face *face, BOX *tri_boxes, vec3f *tri_centers)$/;"	f	class:DeformBVHNode
+DeformBVHNode	bvh.hpp	/^class DeformBVHNode {$/;"	c
+DeformBVHTree	bvh.cpp	/^DeformBVHTree::DeformBVHTree(DeformModel &mdl, bool ccd)$/;"	f	class:DeformBVHTree
+DeformBVHTree	bvh.hpp	/^class DeformBVHTree {$/;"	c
+DeformModel	bvh.hpp	/^typedef Mesh DeformModel;$/;"	t
+Dm	mesh.hpp	/^    Mat2x2 Dm, invDm; \/\/ finite element matrix$/;"	m	struct:Face
+ECHO	util.hpp	184;"	d
+EE	collision.cpp	/^    enum Type {VF, EE} type;$/;"	e	enum:Impact::Type	file:
+EPSILON	util.hpp	37;"	d
+EXTRAORDINARY	dynamicremesh.cpp	/^    enum {FLAT, SEAM, EXTRAORDINARY} type;$/;"	e	enum:VertSizing::__anon3	file:
+Edge	mesh.hpp	/^typedef std::pair<Vert*,Vert*> Edge;$/;"	t
+Eig	vectors.hpp	/^template <int n> struct Eig {$/;"	s
+EqCon	constraint.hpp	/^struct EqCon: public Constraint {$/;"	s
+FLAT	dynamicremesh.cpp	/^    enum {FLAT, SEAM, EXTRAORDINARY} type;$/;"	e	enum:VertSizing::__anon3	file:
+FORCEINLINE	bvh.hpp	55;"	d
+Face	mesh.hpp	/^    Face () {}$/;"	f	struct:Face
+Face	mesh.hpp	/^    explicit Face (Vert *vert0, Vert *vert1, Vert *vert2, int type=0):$/;"	f	struct:Face
+Face	mesh.hpp	/^    explicit Face (Vert *vert0, const Vec2 &u0, Vert *vert1, const Vec2 &u1,$/;"	f	struct:Face
+Face	mesh.hpp	/^struct Face {$/;"	s
+GEOMETRY_HPP	geometry.hpp	28;"	d
+GL_GLEXT_PROTOTYPES	opengl.hpp	32;"	d
+HANDLE_HPP	handle.hpp	28;"	d
+Handle	handle.hpp	/^    Handle (): active(false) {}$/;"	f	struct:Handle
+Handle	handle.hpp	/^struct Handle {$/;"	s
+IO_HPP	io.hpp	28;"	d
+Impact	collision.cpp	/^    Impact () {}$/;"	f	struct:Impact
+Impact	collision.cpp	/^    Impact (Type type, const Vert *v0, const Vert *v1, const Vert *v2,$/;"	f	struct:Impact
+Impact	collision.cpp	/^struct Impact {$/;"	s	file:
+ImpactZone	collision.cpp	/^struct ImpactZone {$/;"	s	file:
+IneqCon	constraint.hpp	/^struct IneqCon: public Constraint {$/;"	s
+Ixn	separate.cpp	/^    Ixn () {}$/;"	f	struct:Ixn
+Ixn	separate.cpp	/^    Ixn (const Face *f0, const Bary &b0, const Face *f1, const Bary &b1,$/;"	f	struct:Ixn
+Ixn	separate.cpp	/^struct Ixn {\/\/ intersection$/;"	s	file:
+Ixn	separateobs.cpp	/^    Ixn () {}$/;"	f	struct:SO::Ixn
+Ixn	separateobs.cpp	/^    Ixn (const Face *f0, const Bary &b0, const Face *f1, const Bary &b1,$/;"	f	struct:SO::Ixn
+Ixn	separateobs.cpp	/^struct Ixn {\/\/ intersection$/;"	s	namespace:SO	file:
+LabeledEdge	mesh.hpp	/^typedef std::pair<Edge,int> LabeledEdge;$/;"	t
+LeastSquares	remesh.cpp	/^    LeastSquares (): A(0), b(0) {}$/;"	f	struct:LeastSquares
+LeastSquares	remesh.cpp	/^    explicit LeastSquares (const Mat<n,n> &A, const Vec<n> &b): A(A), b(b) {}$/;"	f	struct:LeastSquares
+LeastSquares	remesh.cpp	/^template <int n> struct LeastSquares {$/;"	s	file:
+M	dynamicremesh.cpp	/^    Mat2x2 M;$/;"	m	struct:VertSizing	file:
+MAGIC_HPP	magic.hpp	28;"	d
+MAX	bvh.hpp	52;"	d
+MESH_HPP	mesh.hpp	28;"	d
+MIN	bvh.hpp	53;"	d
+MISC_HPP	misc.hpp	28;"	d
+MOT_PARSER_HPP	mot_parser.hpp	28;"	d
+Magic	magic.hpp	/^struct Magic {$/;"	s
+Mat	vectors.hpp	/^    Mat () {for (int j = 0; j < n; j++) c[j] = VecmT(0);}$/;"	f	class:Mat
+Mat	vectors.hpp	/^    Mat (T x) {for (int j = 0; j < n; j++) {c[j] = VecmT(0); if (j < m) c[j][j] = x;}}$/;"	f	class:Mat
+Mat	vectors.hpp	/^    explicit Mat (VecmT x, VecmT y) {static_assert(n==2); c[0] = x; c[1] = y;}$/;"	f	class:Mat
+Mat	vectors.hpp	/^    explicit Mat (VecmT x, VecmT y, VecmT z) {static_assert(n==3); c[0] = x; c[1] = y; c[2] = z;}$/;"	f	class:Mat
+Mat	vectors.hpp	/^    explicit Mat (VecmT x, VecmT y, VecmT z, VecmT w) {static_assert(n==4); c[0] = x; c[1] = y; c[2] = z; c[3] = w;}$/;"	f	class:Mat
+Mat	vectors.hpp	/^template <int m, int n, typename T=double> class Mat {$/;"	c
+Mat12x12	physics.cpp	/^typedef Mat<12,12> Mat12x12;$/;"	t	file:
+Mat2x2	vectors.hpp	/^typedef Mat<2,2> Mat2x2;$/;"	t
+Mat2x3	vectors.hpp	/^typedef Mat<2,3> Mat2x3;$/;"	t
+Mat3x2	vectors.hpp	/^typedef Mat<3,2> Mat3x2;$/;"	t
+Mat3x3	vectors.hpp	/^typedef Mat<3,3> Mat3x3;$/;"	t
+Mat3x4	physics.cpp	/^typedef Mat<3,4> Mat3x4;$/;"	t	file:
+Mat4x6	physics.cpp	/^typedef Mat<4,6> Mat4x6;$/;"	t	file:
+Mat4x9	physics.cpp	/^typedef Mat<4,9> Mat4x9;$/;"	t	file:
+Mat6x6	physics.cpp	/^typedef Mat<6,6> Mat6x6;$/;"	t	file:
+Mat9x6	physics.cpp	/^typedef Mat<9,6> Mat9x6;$/;"	t	file:
+Mat9x9	physics.cpp	/^typedef Mat<9,9> Mat9x9;$/;"	t	file:
+MatTransposed	vectors.hpp	/^template <int m, int n, typename T> class MatTransposed : protected Mat<m,n,T> {$/;"	c
+Material	cloth.hpp	/^    struct Material {$/;"	s	struct:Cloth
+MatmnT	vectors.hpp	140;"	d
+MatmnT	vectors.hpp	201;"	d
+MatnmT	vectors.hpp	141;"	d
+MatnnT	vectors.hpp	142;"	d
+MatnnT	vectors.hpp	202;"	d
+Mesh	mesh.hpp	/^struct Mesh {$/;"	s
+MeshGrad	constraint.hpp	/^typedef std::map<Vert*,Vec3> MeshGrad;$/;"	t
+MeshHess	constraint.hpp	/^typedef std::map<std::pair<Vert*,Vert*>,Mat3x3> MeshHess;$/;"	t
+Min	nearobs.cpp	/^    Min (): key(infinity), val() {}$/;"	f	struct:Min
+Min	nearobs.cpp	/^template <typename T> struct Min {$/;"	s	file:
+Min	proximity.cpp	/^    Min (): key(infinity), val() {}$/;"	f	struct:Min
+Min	proximity.cpp	/^template <typename T> struct Min {$/;"	s	file:
+Motion	transformation.hpp	/^typedef Spline<Transformation> Motion;$/;"	t
+MsPaneOnly	display.cpp	/^static enum {MsPaneOnly, WsPaneOnly, BothPanes} draw_panes = BothPanes;$/;"	e	enum:__anon1	file:
+NEAROBS_HPP	nearobs.hpp	28;"	d
+NEXT	util.hpp	41;"	d
+NLOpt	auglag.hpp	/^struct NLOpt { \/\/ nonlinear optimization problem$/;"	s
+NearPoint	nearobs.cpp	/^    NearPoint (double d, const Vec3 &x): d(d), x(x) {}$/;"	f	struct:NearPoint
+NearPoint	nearobs.cpp	/^struct NearPoint {$/;"	s	file:
+NormalOpt	collision.cpp	/^    NormalOpt (): zone(NULL), inv_m(0) {nvar = ncon = 0;}$/;"	f	struct:NormalOpt
+NormalOpt	collision.cpp	/^    NormalOpt (ImpactZone *zone): zone(zone), inv_m(0) {$/;"	f	struct:NormalOpt
+NormalOpt	collision.cpp	/^struct NormalOpt: public NLOpt {$/;"	s	file:
+OBSTACLE_HPP	obstacle.hpp	28;"	d
+OPENGL_HPP	opengl.hpp	28;"	d
+Obstacle	obstacle.hpp	/^struct Obstacle {$/;"	s
+PHYSICS_HPP	physics.hpp	28;"	d
+PREV	util.hpp	42;"	d
+PROXIMITY_HPP	proximity.hpp	28;"	d
+Physics	simulation.hpp	/^    enum {Proximity, Physics, StrainLimiting, Collision, Remeshing, Separation,$/;"	e	enum:Simulation::__anon4
+Plane	nearobs.hpp	/^typedef std::pair<Vec3,Vec3> Plane;$/;"	t
+Point	spline.hpp	/^    struct Point {double t; T x;};$/;"	s	class:Spline
+Proximity	simulation.hpp	/^    enum {Proximity, Physics, StrainLimiting, Collision, Remeshing, Separation,$/;"	e	enum:Simulation::__anon4
+Q	vectors.hpp	/^    Mat<n,n> Q;$/;"	m	struct:Eig
+Quaternion	transformation.hpp	/^struct Quaternion {$/;"	s
+R	dynamicremesh.cpp	/^    std::vector<Mat2x2> R; \/\/ if seam$/;"	m	struct:VertSizing	file:
+REMESH_HPP	remesh.hpp	28;"	d
+REPORT	util.hpp	186;"	d
+REPORT_ARRAY	util.hpp	188;"	d
+ROTATE	display.cpp	/^struct mouse_state_struct{bool down; int x, y; enum {ROTATE, TRANSLATE, SCALE} func;} mouse_state;$/;"	e	enum:mouse_state_struct::__anon2	file:
+RUNPHYSICS_HPP	runphysics.hpp	28;"	d
+Range	conf.cpp	/^    Range (double &min, double &max): min(min), max(max) {}$/;"	f	struct:Range
+Range	conf.cpp	/^struct Range {$/;"	s	file:
+Range	dynamicremesh.cpp	/^    typedef Vec2 Range;$/;"	t	struct:VertSizing	file:
+Range	dynamicremesh.cpp	/^typedef VertSizing::Range Range;$/;"	t	file:
+RemeshOp	remesh.hpp	/^struct RemeshOp {$/;"	s
+Remeshing	cloth.hpp	/^    struct Remeshing {$/;"	s	struct:Cloth
+Remeshing	simulation.hpp	/^    enum {Proximity, Physics, StrainLimiting, Collision, Remeshing, Separation,$/;"	e	enum:Simulation::__anon4
+SCALE	display.cpp	/^struct mouse_state_struct{bool down; int x, y; enum {ROTATE, TRANSLATE, SCALE} func;} mouse_state;$/;"	e	enum:mouse_state_struct::__anon2	file:
+SEAM	dynamicremesh.cpp	/^    enum {FLAT, SEAM, EXTRAORDINARY} type;$/;"	e	enum:VertSizing::__anon3	file:
+SEPARATEOBS_HPP	separateobs.hpp	28;"	d
+SEPARATE_HPP	separate.hpp	28;"	d
+SIMULATION_HPP	simulation.hpp	28;"	d
+SLOpt	strainlimiting.cpp	/^    SLOpt (vector<Mesh*> &meshes, const vector<Vec2> &strain_limits,$/;"	f	struct:SLOpt
+SLOpt	strainlimiting.cpp	/^struct SLOpt: public NLOpt {$/;"	s	file:
+SO	separateobs.cpp	/^namespace SO {$/;"	n	file:
+SPARSE_HPP	sparse.hpp	28;"	d
+SPLINE_HPP	spline.hpp	28;"	d
+STRAINLIMITING_HPP	strainlimiting.hpp	28;"	d
+SVD	vectors.hpp	/^template <int m, int n> struct SVD {$/;"	s
+Sector	dynamicremesh.cpp	/^    struct Sector {Vec2 mat, tan;};$/;"	s	struct:VertSizing	file:
+Sector	dynamicremesh.cpp	/^typedef VertSizing::Sector Sector;$/;"	t	file:
+Separation	simulation.hpp	/^    enum {Proximity, Physics, StrainLimiting, Collision, Remeshing, Separation,$/;"	e	enum:Simulation::__anon4
+SeparationOpt	separate.cpp	/^    SeparationOpt (const vector<Ixn> &ixns): ixns(ixns), inv_m(0) {$/;"	f	struct:SeparationOpt
+SeparationOpt	separate.cpp	/^struct SeparationOpt: public NLOpt {$/;"	s	file:
+SeparationOpt	separateobs.cpp	/^    SeparationOpt (const vector<Ixn> &ixns): ixns(ixns), inv_m(0) {$/;"	f	struct:SO::SeparationOpt
+SeparationOpt	separateobs.cpp	/^struct SeparationOpt: public NLOpt {$/;"	s	namespace:SO	file:
+Simulation	simulation.hpp	/^struct Simulation {$/;"	s
+SpMat	sparse.hpp	/^    SpMat (): m(0), n(0), rows() {}$/;"	f	struct:SpMat
+SpMat	sparse.hpp	/^    explicit SpMat (int m, int n): m(m), n(n), rows(m) {}$/;"	f	struct:SpMat
+SpMat	sparse.hpp	/^template <typename T> struct SpMat {$/;"	s
+SpVec	sparse.hpp	/^template <typename T> struct SpVec {$/;"	s
+Spline	spline.hpp	/^class Spline {$/;"	c
+Stats	util.hpp	/^    Stats (): sum(0) {}$/;"	f	struct:Stats
+Stats	util.hpp	/^struct Stats {$/;"	s
+StrainLimiting	simulation.hpp	/^    enum {Proximity, Physics, StrainLimiting, Collision, Remeshing, Separation,$/;"	e	enum:Simulation::__anon4
+StretchingData	dde.hpp	/^struct StretchingData {Vec4 d[2][5];};$/;"	s
+StretchingSamples	dde.hpp	/^struct StretchingSamples {Vec4 s[40][40][40];};$/;"	s
+TAUCS_HPP	taucs.hpp	28;"	d
+TRANSFORMATION_HPP	transformation.hpp	28;"	d
+TRANSLATE	display.cpp	/^struct mouse_state_struct{bool down; int x, y; enum {ROTATE, TRANSLATE, SCALE} func;} mouse_state;$/;"	e	enum:mouse_state_struct::__anon2	file:
+Timer	timer.cpp	/^Timer::Timer (): last(0), total(0) {$/;"	f	class:Timer
+Timer	timer.hpp	/^struct Timer {$/;"	s
+Transformation	transformation.cpp	/^Transformation::Transformation(double factor) {$/;"	f	class:Transformation
+Transformation	transformation.hpp	/^struct Transformation {$/;"	s
+Type	collision.cpp	/^    enum Type {VF, EE} type;$/;"	g	struct:Impact	file:
+U	vectors.hpp	/^    Mat<m,m> U;$/;"	m	struct:SVD
+USE_SPARSE3	physics.cpp	200;"	d	file:
+UTIL_HPP	util.hpp	28;"	d
+VECTORS_HPP	vectors.hpp	28;"	d
+VEC_CMP	util.hpp	131;"	d
+VEC_CMP	util.hpp	142;"	d
+VF	collision.cpp	/^    enum Type {VF, EE} type;$/;"	e	enum:Impact::Type	file:
+Vec	vectors.hpp	/^    Vec () {for (int i = 0; i < n; i++) c[i] = 0;}$/;"	f	class:Vec
+Vec	vectors.hpp	/^    Vec (T x) {for (int i = 0; i < n; i++) c[i] = x;}$/;"	f	class:Vec
+Vec	vectors.hpp	/^    explicit Vec (T x, T y) {static_assert(n==2); c[0] = x; c[1] = y;}$/;"	f	class:Vec
+Vec	vectors.hpp	/^    explicit Vec (T x, T y, T z) {static_assert(n==3); c[0] = x; c[1] = y; c[2] = z;}$/;"	f	class:Vec
+Vec	vectors.hpp	/^    explicit Vec (T x, T y, T z, T w) {static_assert(n==4); c[0] = x; c[1] = y; c[2] = z; c[3] = w;}$/;"	f	class:Vec
+Vec	vectors.hpp	/^template <int n, typename T=double> class Vec {$/;"	c
+Vec12	physics.cpp	/^typedef Vec<12> Vec12;$/;"	t	file:
+Vec2	vectors.hpp	/^typedef Vec<2> Vec2;$/;"	t
+Vec3	vectors.hpp	/^typedef Vec<3> Vec3;$/;"	t
+Vec4	dde.hpp	/^typedef Vec<4> Vec4;$/;"	t
+Vec4	mot_parser.hpp	/^typedef Vec<4> Vec4;$/;"	t
+Vec9	physics.cpp	/^typedef Vec<9> Vec9;$/;"	t	file:
+VecmT	vectors.hpp	143;"	d
+VecmT	vectors.hpp	203;"	d
+VecnT	vectors.hpp	134;"	d
+VecnT	vectors.hpp	144;"	d
+VecnT	vectors.hpp	204;"	d
+VecnT	vectors.hpp	74;"	d
+Vert	mesh.hpp	/^    Vert () {}$/;"	f	struct:Vert
+Vert	mesh.hpp	/^    explicit Vert (const Vec3 &x, const Vec3 &v):$/;"	f	struct:Vert
+Vert	mesh.hpp	/^struct Vert {$/;"	s
+VertSizing	dynamicremesh.cpp	/^struct VertSizing {$/;"	s	file:
+View	display.cpp	/^struct View {double lat, lon, x_off, y_off;} view;$/;"	s	file:
+Vt	vectors.hpp	/^    Mat<n,n> Vt;$/;"	m	struct:SVD
+WINPORT_HPP	winport.hpp	28;"	d
+Win	display.cpp	/^struct Win {int w, h;} win;$/;"	s	file:
+Wind	simulation.hpp	/^struct Wind {$/;"	s
+WsPaneOnly	display.cpp	/^static enum {MsPaneOnly, WsPaneOnly, BothPanes} draw_panes = BothPanes;$/;"	e	enum:__anon1	file:
+_USE_MATH_DEFINES	winport.hpp	41;"	d
+__TIMER_H	timer.hpp	29;"	d
+__align	vectors.hpp	41;"	d
+__align	vectors.hpp	46;"	d
+_active	bvh.hpp	/^    bool _active;$/;"	m	class:DeformBVHNode
+_box	bvh.hpp	/^	BOX _box;$/;"	m	class:DeformBVHNode
+_ccd	bvh.hpp	/^    bool _ccd;$/;"	m	class:DeformBVHTree
+_dist	bvh.hpp	/^	float _dist[18];$/;"	m	class:kDOP18
+_face	bvh.hpp	/^	Face *_face;$/;"	m	class:DeformBVHNode
+_left	bvh.hpp	/^	DeformBVHNode *_left;$/;"	m	class:DeformBVHNode
+_mdl	bvh.hpp	/^	DeformModel		*_mdl;$/;"	m	class:DeformBVHTree
+_p	bvh.cpp	/^	float _p;$/;"	m	class:aap	file:
+_parent	bvh.hpp	/^	DeformBVHNode *_parent;$/;"	m	class:DeformBVHNode
+_right	bvh.hpp	/^	DeformBVHNode *_right;$/;"	m	class:DeformBVHNode
+_root	bvh.hpp	/^	DeformBVHNode	*_root;$/;"	m	class:DeformBVHTree
+_xyz	bvh.cpp	/^	char _xyz;$/;"	m	class:aap	file:
+a	constraint.hpp	/^    double a; \/\/ area$/;"	m	struct:IneqCon
+a	mesh.hpp	/^    double a, m; \/\/ area, mass$/;"	m	struct:Face
+a	mesh.hpp	/^    double a, m; \/\/ area, mass$/;"	m	struct:Vert
+aap	bvh.cpp	/^	FORCEINLINE aap(const BOX &total) {$/;"	f	class:aap
+aap	bvh.cpp	/^class aap {$/;"	c	file:
+accumulate_ms_range	display.cpp	/^void accumulate_ms_range (const Mesh &mesh, Vec2 &umin, Vec2 &umax) {$/;"	f
+active	collision.cpp	/^    bool active;$/;"	m	struct:ImpactZone	file:
+active	handle.hpp	/^    bool active;$/;"	m	struct:Handle
+add	auglag.cpp	/^static void add (real_1d_array &x, const vector<double> &y) {$/;"	f	file:
+add	nearobs.cpp	/^    void add (double key, T val) {$/;"	f	struct:Min
+add	proximity.cpp	/^    void add (double key, T val) {$/;"	f	struct:Min
+add	util.cpp	/^void Stats::add (double x) {$/;"	f	class:Stats
+add_constraint_forces	physics.cpp	/^void add_constraint_forces (const Cloth &cloth, const vector<Constraint*> &cons,$/;"	f
+add_face	mesh.cpp	/^void add_face (Face *face, Mesh &mesh) {$/;"	f
+add_friction_forces	physics.cpp	/^void add_friction_forces (const Cloth &cloth, const vector<Constraint*> cons,$/;"	f
+add_impacts	collision.cpp	/^void add_impacts (const vector<Impact> &impacts, vector<ImpactZone*> &zones) {$/;"	f
+add_internal_forces	physics.cpp	/^void add_internal_forces (const Cloth &cloth, SpMat<Mat3x3> &A, vector<Vec3> &b,$/;"	f
+add_proximity	proximity.cpp	/^void add_proximity (const Vert *vert, const Face *face) {$/;"	f
+add_strain_row	strainlimiting.cpp	/^void add_strain_row (const Mat3x3 &sg, const Face *face,$/;"	f
+add_submat	physics.cpp	/^template <int m> void add_submat (const Mat<m*3,m*3> &Asub, const Vec<m,int> &ix, SpMat<Mat3x3> &A) {$/;"	f
+add_subvec	auglag.hpp	/^inline void add_subvec (double *x, int i, const Vec3 &xi) {$/;"	f
+add_subvec	physics.cpp	/^template <int m> void add_subvec (const Vec<m*3> &bsub, const Vec<m,int> &ix, vector<Vec3> &b) {$/;"	f
+add_vert	mesh.cpp	/^void add_vert (Vert *vert, Mesh &mesh) {$/;"	f
+added_edges	remesh.hpp	/^    std::vector<LabeledEdge> added_edges, removed_edges;$/;"	m	struct:RemeshOp
+added_faces	remesh.hpp	/^    std::vector<Face*> added_faces, removed_faces;$/;"	m	struct:RemeshOp
+added_verts	remesh.hpp	/^    std::vector<Vert*> added_verts, removed_verts;$/;"	m	struct:RemeshOp
+adjacent_boundary_verts	mesh.cpp	/^pair<Vert*,Vert*> adjacent_boundary_verts(const Vert* v) {$/;"	f
+adjacent_labeled_edges	mesh.cpp	/^vector<LabeledEdge> adjacent_labeled_edges (const Vert *v, const Mesh &mesh) {$/;"	f
+adjf	mesh.hpp	/^    Face* adjf[3]; \/\/ adjacent faces$/;"	m	struct:Face
+adjf	mesh.hpp	/^    std::vector<Face*> adjf; \/\/ adjacent faces$/;"	m	struct:Vert
+adjv	mesh.hpp	/^    std::vector<Vert*> adjv; \/\/ adjacent verts$/;"	m	struct:Vert
+advance_frame	simulation.cpp	/^void advance_frame (Simulation &sim) {$/;"	f
+advance_step	simulation.cpp	/^void advance_step (Simulation &sim) {$/;"	f
+aligned_free	vectors.hpp	/^inline void aligned_free(void *ptr)    { _aligned_free(ptr); }$/;"	f
+aligned_free	vectors.hpp	/^inline void aligned_free(void *ptr)    { free(ptr); }$/;"	f
+ambient_light	display.cpp	/^void ambient_light (double a) {$/;"	f
+ambient_occlusion	display.cpp	/^void ambient_occlusion (const Vert *vert) {$/;"	f
+angle	dynamicremesh.cpp	/^double angle (const Vec2 &v) {return atan2(v[1], v[0]);}$/;"	f
+angle	dynamicremesh.cpp	/^double angle (const Vec3 &n1, const Vec3 &n2) {$/;"	f
+angle	io.cpp	/^static double angle (const Vec3 &x0, const Vec3 &x1, const Vec3 &x2) {$/;"	f	file:
+angle_next	dynamicremesh.cpp	/^double angle_next (const Vert *vert, const Face *face) {$/;"	f
+angle_prev	dynamicremesh.cpp	/^double angle_prev (const Vert *vert, const Face *face) {$/;"	f
+angle_range	dynamicremesh.cpp	/^Range angle_range (double angle0, double angle1) {$/;"	f
+any_degenerate	dynamicremesh.cpp	/^bool any_degenerate (const vector<Face*> faces) {$/;"	f
+any_inverted	dynamicremesh.cpp	/^bool any_inverted (const vector<Face*> faces, const Vec3 &n) {$/;"	f
+append	util.hpp	/^inline void append (std::vector<T> &xs, const std::vector<T> &ys) {$/;"	f
+append_frame	mot_parser.cpp	/^void append_frame(BodyVector &bodies, size_t body_index, const BodyFrame& bf) {$/;"	f
+apply	remesh.cpp	/^void RemeshOp::apply (Mesh &mesh) const {$/;"	f	class:RemeshOp
+apply	transformation.cpp	/^Vec3 Transformation::apply (const Vec3 &x) const {$/;"	f	class:Transformation
+apply_dtrans	transformation.cpp	/^Vec3 apply_dtrans (const DTransformation &dtrans, const Vec3 &x0, Vec3 *vel) {$/;"	f
+apply_dtrans_vec	transformation.cpp	/^Vec3 apply_dtrans_vec (const DTransformation &dtrans, const Vec3 &v0) {$/;"	f
+apply_face_types	conf.cpp	/^void apply_face_types (const vector<Box> &boxes, Mesh &mesh) {$/;"	f
+apply_inelastic_projection	collision.cpp	/^void apply_inelastic_projection (ImpactZone *zone,$/;"	f
+apply_transformation	mesh.cpp	/^void apply_transformation (Mesh& mesh, const Transformation& tr) {$/;"	f
+apply_transformation_onto	mesh.cpp	/^void apply_transformation_onto (const Mesh &start_state, Mesh &onto,$/;"	f
+apply_vec	transformation.cpp	/^Vec3 Transformation::apply_vec (const Vec3 &v) const {$/;"	f	class:Transformation
+area_color	display.cpp	/^Vec3 area_color (const Face *face) {$/;"	f
+area_color	display.cpp	/^Vec3 area_color (const Mat2x2 &M) {$/;"	f
+area_color	display.cpp	/^Vec3 area_color (const Vec2 &size) {$/;"	f
+aspect_min	cloth.hpp	/^        double aspect_min; \/\/ aspect ratio control$/;"	m	struct:Cloth::Remeshing
+auglag_value_and_grad	auglag.cpp	/^static void auglag_value_and_grad (const real_1d_array &x, double &value,$/;"	f	file:
+augmented_lagrangian_method	auglag.cpp	/^void augmented_lagrangian_method (const NLOpt &problem, bool verbose) {$/;"	f
+b	remesh.cpp	/^    Vec<n> b;$/;"	m	struct:LeastSquares	file:
+b0	separate.cpp	/^    Bary b0, b1;$/;"	m	struct:Ixn	file:
+b0	separateobs.cpp	/^    Bary b0, b1;$/;"	m	struct:SO::Ixn	file:
+b1	separate.cpp	/^    Bary b0, b1;$/;"	m	struct:Ixn	file:
+b1	separateobs.cpp	/^    Bary b0, b1;$/;"	m	struct:SO::Ixn	file:
+base_mesh	obstacle.hpp	/^    Mesh base_mesh;$/;"	m	struct:Obstacle
+bending	cloth.hpp	/^        BendingData bending;$/;"	m	struct:Cloth::Material
+bending_force	physics.cpp	/^pair<Mat12x12,Vec12> bending_force (const Vert *v3, const Vert *v4,$/;"	f
+bending_stiffness	dde.cpp	/^double bending_stiffness (const Vec2 &edge, double curvature,$/;"	f
+blend_with_previous	obstacle.cpp	/^void Obstacle::blend_with_previous (double t, double dt, double blend) {$/;"	f	class:Obstacle
+blockdiag	blockvectors.hpp	/^template <int bn, int m, int n, typename T> Mat<m*bn,n*bn,T> blockdiag (const Mat<m,n,T> &A) {$/;"	f
+body_vector_to_transforms	mot_parser.cpp	/^vector<vector<Transformation> > body_vector_to_transforms(BodyVector& bodies) {$/;"	f
+bodyframe_to_transformation	mot_parser.cpp	/^Transformation bodyframe_to_transformation(const BodyFrame& bodyFrame) {$/;"	f
+box	bvh.cpp	/^DeformBVHTree::box()$/;"	f	class:DeformBVHTree
+build_cubic_spline	util.cpp	/^Spline<Transformation> build_cubic_spline($/;"	f
+c	handle.hpp	/^    int c, v, m; \/\/ cloth, vertex, motion indices$/;"	m	struct:Handle
+c	vectors.hpp	/^    VecmT c[n];$/;"	m	class:Mat
+c	vectors.hpp	/^  __align(32) T c[n%4? 4*(1+n\/4): n];$/;"	m	class:Vec
+can_collapse	dynamicremesh.cpp	/^bool can_collapse (const Vert *vert0, const Vert *vert1) {$/;"	f
+center	bvh.hpp	/^	FORCEINLINE float center(int i) const {$/;"	f	class:kDOP18
+center	bvh.hpp	/^	FORCEINLINE vec3f center() const { $/;"	f	class:kDOP18
+check_that_contents_are_sane	mesh.cpp	/^bool check_that_contents_are_sane (const Mesh &mesh) {$/;"	f
+check_that_pointers_are_sane	mesh.cpp	/^bool check_that_pointers_are_sane (const Mesh &mesh) {$/;"	f
+clamp	util.hpp	/^template <typename T> T clamp (const T &x, const T &a, const T &b) {$/;"	f
+clamp_violation	auglag.cpp	/^inline double clamp_violation (double x, int sign) {$/;"	f
+clean_up_quaternions	transformation.cpp	/^void clean_up_quaternions (Motion &motion) {$/;"	f
+cloth_meshes	simulation.hpp	/^    std::vector<Mesh*> cloth_meshes, obstacle_meshes;$/;"	m	struct:Simulation
+cloths	simulation.hpp	/^    std::vector<Cloth> cloths;$/;"	m	struct:Simulation
+col	vectors.hpp	/^    VecmT &col (int j) {return c[j];}$/;"	f	class:Mat
+col	vectors.hpp	/^    const VecmT &col (int j) const {return c[j];}$/;"	f	class:Mat
+collapse_edge	remesh.cpp	/^RemeshOp collapse_edge (Vert* v0, Vert* v1, const Mesh &mesh) {$/;"	f
+collect_leaves	collisionutil.cpp	/^void collect_leaves (BVHNode *node, vector<BVHNode*> &leaves) {$/;"	f
+collect_upper_nodes	collisionutil.cpp	/^vector<BVHNode*> collect_upper_nodes (const vector<AccelStruct*> &accs,$/;"	f
+collision	simulation.cpp	/^                 collision = Simulation::Collision,$/;"	v	file:
+collision_response	collision.cpp	/^void collision_response (vector<Mesh*> &meshes, const vector<Constraint*> &cons,$/;"	f
+collision_step	simulation.cpp	/^void collision_step (Simulation &sim) {$/;"	f
+collision_stiffness	magic.hpp	/^    double handle_stiffness, collision_stiffness;$/;"	m	struct:Magic
+collision_test	collision.cpp	/^bool collision_test (Impact::Type type, const Vert *vert0, const Vert *vert1,$/;"	f
+colmat	physics.cpp	/^template <int m> Mat<m,1> colmat (const Vec<m> &v) {$/;"	f
+color	display.cpp	/^void color (const Vec3 &x) {$/;"	f
+complain	conf.cpp	/^void complain (const Json::Value &json, const string &expected) {$/;"	f
+compose	remesh.cpp	/^RemeshOp compose (const RemeshOp &op1, const RemeshOp &op2) {$/;"	f
+compression_metric	dynamicremesh.cpp	/^template <int n> Mat<n,n> compression_metric (const Mat<n,n> &FtF) {$/;"	f
+compute_adjacency	mesh.cpp	/^void compute_adjacency (Mesh &mesh) {$/;"	f
+compute_extraordinary_sizing	dynamicremesh.cpp	/^VertSizing compute_extraordinary_sizing (const Vert *vert,$/;"	f
+compute_face_adjacency	mesh.cpp	/^void compute_face_adjacency (Face* f1) {$/;"	f
+compute_face_local_frame	mesh.cpp	/^void compute_face_local_frame (Face* face) {$/;"	f
+compute_face_ms_data	mesh.cpp	/^void compute_face_ms_data (Face* face) {$/;"	f
+compute_face_sizing	dynamicremesh.cpp	/^Mat2x2 compute_face_sizing (const Face *face, const vector<Plane> &planes) {$/;"	f
+compute_flat_sizing	dynamicremesh.cpp	/^VertSizing compute_flat_sizing (const Vert *vert,$/;"	f
+compute_masses	cloth.cpp	/^void compute_masses (Cloth &cloth) {$/;"	f
+compute_ms_data	mesh.cpp	/^void compute_ms_data (Mesh &mesh) {$/;"	f
+compute_seam_sizing	dynamicremesh.cpp	/^VertSizing compute_seam_sizing (const Vert *vert,$/;"	f
+compute_vert_adjacency	mesh.cpp	/^void compute_vert_adjacency (Vert* v1) {$/;"	f
+compute_vert_local_frame	mesh.cpp	/^void compute_vert_local_frame (Vert* vert) {$/;"	f
+compute_vert_ms_data	mesh.cpp	/^void compute_vert_ms_data (Vert* vert) {$/;"	f
+compute_vert_sizing	dynamicremesh.cpp	/^VertSizing compute_vert_sizing (const Vert *vert,$/;"	f
+compute_ws_data	mesh.cpp	/^void compute_ws_data (Mesh &mesh) {$/;"	f
+con_grad	collision.cpp	/^void NormalOpt::con_grad (const double *x, int j, double factor,$/;"	f	class:NormalOpt
+con_grad	separate.cpp	/^void SeparationOpt::con_grad (const double *x, int j, double factor,$/;"	f	class:SeparationOpt
+con_grad	separateobs.cpp	/^void SeparationOpt::con_grad (const double *x, int j, double factor,$/;"	f	class:SO::SeparationOpt
+con_grad	strainlimiting.cpp	/^void SLOpt::con_grad (const double *x, int j, double factor,$/;"	f	class:SLOpt
+conflict	collision.cpp	/^bool conflict (const Impact &impact0, const Impact &impact1) {$/;"	f
+conold	strainlimiting.cpp	/^    vector<double> conold;$/;"	m	struct:SLOpt	file:
+cons	strainlimiting.cpp	/^    const vector<Constraint*> &cons;$/;"	m	struct:SLOpt	file:
+constraint	collision.cpp	/^double NormalOpt::constraint (const double *x, int j, int &sign) const {$/;"	f	class:NormalOpt
+constraint	separate.cpp	/^double SeparationOpt::constraint (const double *x, int j, int &sign) const {$/;"	f	class:SeparationOpt
+constraint	separateobs.cpp	/^double SeparationOpt::constraint (const double *x, int j, int &sign) const {$/;"	f	class:SO::SeparationOpt
+constraint	strainlimiting.cpp	/^double SLOpt::constraint (const double *x, int j, int &sign) const {$/;"	f	class:SLOpt
+contains	physics.cpp	/^bool contains (const Mesh &mesh, const Vert *vert) {$/;"	f
+copy_file	runphysics.cpp	/^void copy_file (const string &input, const string &output) {$/;"	f
+count_face_sectors	dynamicremesh.cpp	/^vector< pair<int,int> > count_face_sectors (const vector<Face*> &faces,$/;"	f
+count_faces	simulation.cpp	/^int count_faces (const vector<Mesh*> &meshes) {$/;"	f
+count_verts	simulation.cpp	/^int count_verts (const vector<Mesh*> &meshes) {$/;"	f
+create_accel_structs	collisionutil.cpp	/^vector<AccelStruct*> create_accel_structs (const vector<Mesh*> &meshes,$/;"	f
+create_vert_sizing	dynamicremesh.cpp	/^void create_vert_sizing (Mesh &mesh, const vector<Plane> &planes) {$/;"	f
+cross	dynamicremesh.cpp	/^double cross (const Vec2 &u, const Vec2 &v) {return u[0]*v[1] - u[1]*v[0];}$/;"	f
+cross	vectors.hpp	/^template <typename T> Vec<3,T> cross (const Vec<3,T> &u, const Vec<3,T> &v) {Vec<3,T> w; w[0] = u[1]*v[2] - u[2]*v[1]; w[1] = u[2]*v[0] - u[0]*v[2]; w[2] = u[0]*v[1] - u[1]*v[0]; return w;}$/;"	f
+curr_state_mesh	obstacle.hpp	/^    Mesh curr_state_mesh;$/;"	m	struct:Obstacle
+curvature	geometry.cpp	/^Mat2x2 curvature (const Face *face) {$/;"	f
+d	dde.hpp	/^struct BendingData {double d[3][5];};$/;"	m	struct:BendingData
+d	dde.hpp	/^struct StretchingData {Vec4 d[2][5];};$/;"	m	struct:StretchingData
+d	nearobs.cpp	/^    double d;$/;"	m	struct:NearPoint	file:
+damping	cloth.hpp	/^        double damping; \/\/ stiffness-proportional damping coefficient$/;"	m	struct:Cloth::Material
+debug	strainlimiting.cpp	/^void debug (const vector<string> &args) {$/;"	f
+debug_save_mesh	util.cpp	/^void debug_save_mesh (const Mesh &mesh, const string &name, int n) {$/;"	f
+debug_save_meshes	util.cpp	/^void debug_save_meshes (const vector<Mesh*> &meshvec, const string &name,$/;"	f
+deep_copy	mesh.cpp	/^Mesh deep_copy (const Mesh &mesh0) {$/;"	f
+deform_obstacles	collision.cpp	/^static bool deform_obstacles;$/;"	v	file:
+degenerate	dynamicremesh.cpp	/^bool degenerate (const Face *face) {$/;"	f
+delete_constraints	simulation.cpp	/^void delete_constraints (vector<Constraint*> &cons) {$/;"	f
+delete_mesh	mesh.cpp	/^void delete_mesh (Mesh &mesh) {$/;"	f
+density	cloth.hpp	/^        double density; \/\/ area density$/;"	m	struct:Cloth::Material
+density	simulation.hpp	/^    double density;$/;"	m	struct:Wind
+depth	bvh.hpp	/^	FORCEINLINE float depth()  const { return _dist[11] - _dist[2]; }$/;"	f	class:kDOP18
+derivative	mesh.hpp	/^Mat<n,2> derivative (Vec<n> w0, Vec<n> w1, Vec<n> w2, const Face *face) {$/;"	f
+derivative	mesh.hpp	/^inline Vec2 derivative (double a0, double a1, double a2, const Face *face) {$/;"	f
+derivative	physics.cpp	/^Mat2x3 derivative (Face const *face) {$/;"	f
+destroy_accel_structs	collisionutil.cpp	/^void destroy_accel_structs (vector<AccelStruct*> &accs) {$/;"	f
+destroy_vert_sizing	dynamicremesh.cpp	/^void destroy_vert_sizing (Mesh &mesh) {$/;"	f
+det	vectors.hpp	/^template <typename T> T det (const Mat<2,2,T> &A) {return A(0,0)*A(1,1) - A(0,1)*A(1,0);}$/;"	f
+det	vectors.hpp	/^template <typename T> T det (const Mat<3,3,T> &A) {return stp(A.col(0), A.col(1), A.col(2));}$/;"	f
+diag	vectors.hpp	/^template <int n, typename T> MatnnT diag (const VecnT &u) {MatnnT A = 0; for (int j = 0; j < n; j++) A(j,j) = u[j]; return A;}$/;"	f
+diag	vectors.hpp	/^template <int n, typename T> VecnT diag (const MatnnT &A) {VecnT u; for (int j = 0; j < n; j++) u[j] = A(j,j); return u;}$/;"	f
+dihedral_angle	geometry.cpp	/^double dihedral_angle (const Vert *vert0, const Vert *vert1) {$/;"	f
+dilate	bvh.cpp	/^BOX dilate (const BOX &box, double d) {$/;"	f
+directed_vert_sizing	dynamicremesh.cpp	/^Mat2x2 directed_vert_sizing (const Vert *vert, const Vec2 &u, const Vec2 &du) {$/;"	f
+directional_light	display.cpp	/^void directional_light (int i, const Vec3 &dir, double dif) {$/;"	f
+display	display.cpp	/^void display () {$/;"	f
+display_extra	display.cpp	/^void (*display_extra) ();$/;"	v
+display_physics	displayphysics.cpp	/^void display_physics (const vector<string> &args) {$/;"	f
+display_replay	displayreplay.cpp	/^void display_replay (const vector<string> &args) {$/;"	f
+display_resume	displayphysics.cpp	/^void display_resume (const vector<string> &args) {$/;"	f
+display_testing	displaytesting.cpp	/^void display_testing (const vector<string> &args) {$/;"	f
+done	remesh.cpp	/^void RemeshOp::done () const {$/;"	f	class:RemeshOp
+dot	vectors.hpp	/^tpl T dot (const VecnT &u, const VecnT &v) {T d = 0; for (int i = 0; i < n; i++) d += u[i]*v[i]; return d;}$/;"	f
+down	display.cpp	/^struct mouse_state_struct{bool down; int x, y; enum {ROTATE, TRANSLATE, SCALE} func;} mouse_state;$/;"	m	struct:mouse_state_struct	file:
+drag	simulation.hpp	/^    double drag;$/;"	m	struct:Wind
+draw_box	display.cpp	/^void draw_box (BOX &box) {$/;"	f
+draw_bvh	display.cpp	/^void draw_bvh (Mesh &mesh) {$/;"	f
+draw_bvh_leaves	display.cpp	/^void draw_bvh_leaves (DeformBVHNode *node) {$/;"	f
+draw_fps	display.cpp	/^void draw_fps () {$/;"	f
+draw_mesh_ms	display.cpp	/^void draw_mesh_ms (const Mesh &mesh, bool set_color=false) {$/;"	f
+draw_mesh_seams	display.cpp	/^void draw_mesh_seams (const Mesh &mesh) {$/;"	f
+draw_mesh_ws	display.cpp	/^void draw_mesh_ws (const Mesh &mesh, bool set_color=false) {$/;"	f
+draw_meshes_ms	display.cpp	/^void draw_meshes_ms (bool set_color=false) {$/;"	f
+draw_meshes_seams	display.cpp	/^void draw_meshes_seams () {$/;"	f
+draw_meshes_ws	display.cpp	/^void draw_meshes_ws (bool set_color=false) {$/;"	f
+draw_panes	display.cpp	/^static enum {MsPaneOnly, WsPaneOnly, BothPanes} draw_panes = BothPanes;$/;"	v	typeref:enum:__anon1	file:
+draw_vert_vels	display.cpp	/^void draw_vert_vels () {$/;"	f
+dynamic_remesh	dynamicremesh.cpp	/^void dynamic_remesh (Cloth &cloth, const vector<Plane> &planes) {$/;"	f
+edge_box	bvh.cpp	/^BOX edge_box (const Edge &edge, bool ccd) {$/;"	f
+edge_faces	mesh.cpp	/^pair<Face*,Face*> edge_faces (const Vert *v0, const Vert *v1) {$/;"	f
+edge_flip_threshold	magic.hpp	/^    double edge_flip_threshold;$/;"	m	struct:Magic
+edge_label	mesh.cpp	/^int edge_label (const Edge &edge, const Mesh &mesh) {$/;"	f
+edge_metric	dynamicremesh.cpp	/^double edge_metric (const Edge edge) {$/;"	f
+edge_metric_via	dynamicremesh.cpp	/^double edge_metric_via (const Edge edge, const Vert *vert) {$/;"	f
+edge_verts	mesh.cpp	/^pair<Vert*,Vert*> edge_verts (const Vert *v0, const Vert *v1) {$/;"	f
+ee_clear_distance	separate.cpp	/^double ee_clear_distance (const Face *face0, const Face *face1, const Vec3 &d,$/;"	f
+ee_clear_distance	separateobs.cpp	/^double ee_clear_distance (const Face *face0, const Face *face1, const Vec3 &d,$/;"	f	namespace:SO
+ee_collision_test	collision.cpp	/^bool ee_collision_test (const Edge edge0, const Edge edge1, Impact &impact) {$/;"	f
+eigen_decomposition	vectors.cpp	/^template<> Eig<2> eigen_decomposition<2>(const Mat2x2 &A) {$/;"	f
+empty	bvh.hpp	/^	FORCEINLINE void empty() {$/;"	f	class:kDOP18
+empty	remesh.hpp	/^    bool empty () {return added_faces.empty() && removed_faces.empty();}$/;"	f	struct:RemeshOp
+enabled	simulation.hpp	/^    bool enabled[nModules];$/;"	m	struct:Simulation
+end_frame	simulation.hpp	/^    double end_time, end_frame;$/;"	m	struct:Simulation
+end_time	handle.hpp	/^    double start_time, end_time; \/\/ how long the handle will exist$/;"	m	struct:Handle
+end_time	simulation.hpp	/^    double end_time, end_frame;$/;"	m	struct:Simulation
+energy	constraint.cpp	/^double EqCon::energy (double value) {return stiff*sq(value)\/2.;}$/;"	f	class:EqCon
+energy	constraint.cpp	/^double IneqCon::energy (double value) {$/;"	f	class:IneqCon
+energy_grad	constraint.cpp	/^double EqCon::energy_grad (double value) {return stiff*value;}$/;"	f	class:EqCon
+energy_grad	constraint.cpp	/^double IneqCon::energy_grad (double value) {$/;"	f	class:IneqCon
+energy_hess	constraint.cpp	/^double EqCon::energy_hess (double value) {return stiff;}$/;"	f	class:EqCon
+energy_hess	constraint.cpp	/^double IneqCon::energy_hess (double value) {$/;"	f	class:IneqCon
+ensure_existing_directory	io.cpp	/^void ensure_existing_directory (const std::string &path) {$/;"	f
+entries	sparse.hpp	/^    std::vector<T> entries;$/;"	m	struct:SpVec
+error	mot_parser.hpp	/^    std::string error;$/;"	m	class:mot_parser_exception
+evaluate_stretching_sample	dde.cpp	/^Vec4 evaluate_stretching_sample (const Mat2x2 &_G, const StretchingData &data) {$/;"	f
+evaluate_stretching_samples	dde.cpp	/^StretchingSamples evaluate_stretching_samples (const StretchingData &data) {$/;"	f
+exclude	util.hpp	/^template <typename T> inline void exclude (const T &x, std::vector<T> &xs) {$/;"	f
+exclude_all	dynamicremesh.cpp	/^template <typename T> void exclude_all (const vector<T> &u, vector<T> &v) {for (int i = 0; i < u.size(); i++) exclude(u[i], v);}$/;"	f
+external_forces	physics.cpp	/^vector<Vec3> external_forces (const Cloth &cloth, const Vec3 &gravity,$/;"	f
+f0	separate.cpp	/^    Face *f0, *f1;$/;"	m	struct:Ixn	file:
+f0	separateobs.cpp	/^    Face *f0, *f1;$/;"	m	struct:SO::Ixn	file:
+f1	separate.cpp	/^    Face *f0, *f1;$/;"	m	struct:Ixn	file:
+f1	separateobs.cpp	/^    Face *f0, *f1;$/;"	m	struct:SO::Ixn	file:
+face	remesh.cpp	/^LeastSquares<3> face (const Vec2 u0, const Vert *vert1, const Vec2 &u1,$/;"	f
+face_aspect	dynamicremesh.cpp	/^double face_aspect (const Face *face) {$/;"	f
+face_aspect	dynamicremesh.cpp	/^double face_aspect (const Vec2 &u0, const Vec2 &u1, const Vec2 &u2) {$/;"	f
+face_box	bvh.cpp	/^BOX face_box (const Face *face, bool ccd) {$/;"	f
+face_buffer	bvh.hpp	/^	Face **face_buffer;$/;"	m	class:DeformBVHTree
+face_edge	util.cpp	/^Edge face_edge (const Face *face, int e) {$/;"	f
+face_niceness	dynamicremesh.cpp	/^double face_niceness (const Face *face) {$/;"	f
+face_normals	separateobs.cpp	/^vector<Vec3> face_normals (const vector<Mesh*> &meshes) {$/;"	f	namespace:SO
+face_plane_intersection	separate.cpp	/^bool face_plane_intersection (const Face *face, const Face *plane,$/;"	f
+face_plane_intersection	separateobs.cpp	/^bool face_plane_intersection (const Face *face, const Face *plane,$/;"	f	namespace:SO
+face_prox	proximity.cpp	/^static vector< Min<Vert*> > face_prox[2];$/;"	v	file:
+faces	mesh.hpp	/^    std::vector<Face*> faces;$/;"	m	struct:Mesh
+farthest_neighbor	dynamicremesh.cpp	/^Vert *farthest_neighbor (const Vert *vert) {$/;"	f
+farthest_points	separate.cpp	/^bool farthest_points (const Face *face0, const Face *face1, const Vec3 &d,$/;"	f
+farthest_points	separateobs.cpp	/^bool farthest_points (const Face *face0, const Face *face1, const Vec3 &d,$/;"	f	namespace:SO
+finalize	collision.cpp	/^void NormalOpt::finalize (const double *x) const {$/;"	f	class:NormalOpt
+finalize	separate.cpp	/^void SeparationOpt::finalize (const double *x) const {$/;"	f	class:SeparationOpt
+finalize	separateobs.cpp	/^void SeparationOpt::finalize (const double *x) const {$/;"	f	class:SO::SeparationOpt
+finalize	strainlimiting.cpp	/^void SLOpt::finalize (const double *x) const {$/;"	f	class:SLOpt
+find	bvh.cpp	/^DeformBVHNode::find(Face *face)$/;"	f	class:DeformBVHNode
+find	spline.cpp	/^static int find (const Spline<T> &s, double t) {$/;"	f	file:
+find	util.hpp	/^template <typename T> inline int find (const T &x, const T *xs, int n=3) {$/;"	f
+find	util.hpp	/^template <typename T> inline int find (const T &x, const std::vector<T> &xs) {$/;"	f
+find	util.hpp	/^template <typename T> inline int find (const T *x, T* const *xs, int n=3) {$/;"	f
+find_bad_edges	dynamicremesh.cpp	/^vector<Edge> find_bad_edges (const Mesh &mesh) {$/;"	f
+find_edges_to_flip	dynamicremesh.cpp	/^vector<Edge> find_edges_to_flip (const vector<Face*> &active, const Mesh &mesh){$/;"	f
+find_face_impacts	collision.cpp	/^void find_face_impacts (const Face *face0, const Face *face1) {$/;"	f
+find_face_intersection	separate.cpp	/^void find_face_intersection (const Face *face0, const Face *face1) {$/;"	f
+find_face_intersection	separateobs.cpp	/^void find_face_intersection (const Face *face0, const Face *face1) {$/;"	f	namespace:SO
+find_impacts	collision.cpp	/^vector<Impact> find_impacts (const vector<AccelStruct*> &accs,$/;"	f
+find_in_meshes	collision.cpp	/^pair<bool,int> find_in_meshes (const Vert *vert) {$/;"	f
+find_index	sparse.hpp	/^inline int find_index (int i, const std::vector<int> &indices) {$/;"	f
+find_intersections	separate.cpp	/^vector<Ixn> find_intersections (const vector<AccelStruct*> &accs,$/;"	f
+find_intersections	separateobs.cpp	/^vector<Ixn> find_intersections (const vector<AccelStruct*> &accs,$/;"	f	namespace:SO
+find_match	dynamicremesh.cpp	/^pair<Face*,Face*> find_match (pair<Face*,Face*> &fs0, pair<Face*,Face*> &fs1,$/;"	f
+find_mesh	collisionutil.cpp	/^int find_mesh (const Face *face, const vector<Mesh*> &meshes) {$/;"	f
+find_mesh	collisionutil.cpp	/^int find_mesh (const Vert *vert, const vector<Mesh*> &meshes) {$/;"	f
+find_or_create_zone	collision.cpp	/^ImpactZone *find_or_create_zone (const Vert *vert, vector<ImpactZone*> &zones) {$/;"	f
+find_proximities	proximity.cpp	/^void find_proximities (const Face *face0, const Face *face1) {$/;"	f
+finite	winport.hpp	/^template <class T> inline bool   finite(const T& number) { return boost::math::isfinite(number); }$/;"	f
+fit_in_viewport	display.cpp	/^void fit_in_viewport (const Vec2 &umin, const Vec2 &umax, double aspect) {$/;"	f
+fix_up_mesh	dynamicremesh.cpp	/^RemeshOp fix_up_mesh (vector<Face*> &active, Mesh &mesh) {$/;"	f
+fixed_high_res_mesh	magic.hpp	/^    bool fixed_high_res_mesh;$/;"	m	struct:Magic
+flatten_angles	dynamicremesh.cpp	/^vector<Vec2> flatten_angles (const vector<Vec2> mat_angles, bool rescale) {$/;"	f
+flip_edge	remesh.cpp	/^RemeshOp flip_edge (Vert* v0, Vert* v1, const Mesh &mesh) {$/;"	f
+flip_edges	dynamicremesh.cpp	/^RemeshOp flip_edges (vector<Face*> &active, Mesh &mesh) {$/;"	f
+flip_image	io.cpp	/^void flip_image (int w, int h, unsigned char *pixels) {$/;"	f
+flip_some_edges	dynamicremesh.cpp	/^RemeshOp flip_some_edges (vector<Face*> &active, Mesh &mesh) {$/;"	f
+for_faces_overlapping_obstacles	collisionutil.cpp	/^void for_faces_overlapping_obstacles (const vector<AccelStruct*> &accs,$/;"	f
+for_overlapping_faces	collisionutil.cpp	/^void for_overlapping_faces (BVHNode *node, float thickness,$/;"	f
+for_overlapping_faces	collisionutil.cpp	/^void for_overlapping_faces (BVHNode *node0, BVHNode *node1, float thickness,$/;"	f
+for_overlapping_faces	collisionutil.cpp	/^void for_overlapping_faces (const vector<AccelStruct*> &accs,$/;"	f
+forward_mesh	simulation.cpp	/^void forward_mesh (Mesh &mesh, double dt) {$/;"	f
+fps	runphysics.cpp	/^Timer fps;$/;"	v
+frame	simulation.hpp	/^    int frame, step;$/;"	m	struct:Simulation
+frame_steps	simulation.hpp	/^    int frame_steps;$/;"	m	struct:Simulation
+frame_time	simulation.hpp	/^    double frame_time, step_time;$/;"	m	struct:Simulation
+free	constraint.hpp	/^    bool free[4];$/;"	m	struct:IneqCon
+friction	constraint.cpp	/^MeshGrad EqCon::friction (double dt, MeshHess &jac) {return MeshGrad();}$/;"	f	class:EqCon
+friction	constraint.cpp	/^MeshGrad IneqCon::friction (double dt, MeshHess &jac) {$/;"	f	class:IneqCon
+friction	simulation.hpp	/^    double friction, obs_friction;$/;"	m	struct:Simulation
+from_axisangle	transformation.cpp	/^Quaternion Quaternion::from_axisangle(const Vec3 &axis, double angle) {$/;"	f	class:Quaternion
+from_tan	dynamicremesh.cpp	/^Mat2x2 from_tan (const Mat2x2 &Mtan, const Sector &sec, double t0) {$/;"	f
+func	display.cpp	/^struct mouse_state_struct{bool down; int x, y; enum {ROTATE, TRANSLATE, SCALE} func;} mouse_state;$/;"	m	struct:mouse_state_struct	typeref:enum:mouse_state_struct::__anon2	file:
+getDistances	bvh.hpp	/^	FORCEINLINE static float getDistances(const vec3f &p, int i)$/;"	f	class:kDOP18
+getDistances	bvh.hpp	/^	FORCEINLINE static void getDistances(const vec3f& p, float d[])$/;"	f	class:kDOP18
+getDistances	bvh.hpp	/^	FORCEINLINE static void getDistances(const vec3f& p,$/;"	f	class:kDOP18
+getFace	bvh.hpp	/^	FORCEINLINE Face *getFace() { return _face; }$/;"	f	class:DeformBVHNode
+getLeftChild	bvh.hpp	/^	FORCEINLINE DeformBVHNode *getLeftChild() { return _left; }$/;"	f	class:DeformBVHNode
+getParent	bvh.hpp	/^	FORCEINLINE DeformBVHNode *getParent() { return _parent; }$/;"	f	class:DeformBVHNode
+getRightChild	bvh.hpp	/^	FORCEINLINE DeformBVHNode *getRightChild() { return _right; }$/;"	f	class:DeformBVHNode
+getRoot	bvh.hpp	/^	FORCEINLINE DeformBVHNode *getRoot() { return _root; }$/;"	f	class:DeformBVHTree
+get_barycentric_coords	geometry.cpp	/^Vec3 get_barycentric_coords(const Vec2& point, const Face* f) {$/;"	f
+get_body_frame	mot_parser.cpp	/^BodyFrame& get_body_frame(BodyVector &bodies, size_t body_index, size_t frame) {$/;"	f
+get_body_frames	mot_parser.cpp	/^BodyFrameVector& get_body_frames(BodyVector &bodies, size_t body_index) {$/;"	f
+get_constraints	handle.cpp	/^std::vector<Constraint*> Handle::get_constraints (double t) {$/;"	f	class:Handle
+get_constraints	simulation.cpp	/^vector<Constraint*> get_constraints (Simulation &sim, bool include_proximity) {$/;"	f
+get_dtrans	transformation.cpp	/^DTransformation get_dtrans (const Motion &motion, double t) {$/;"	f
+get_enclosing_face	geometry.cpp	/^Face* get_enclosing_face(const Mesh& mesh, const Vec2& u,$/;"	f
+get_face	simulation.cpp	/^Face *get_face (int f, const vector<Mesh*> &meshes) {$/;"	f
+get_index	simulation.cpp	/^int get_index (const Face *face, const vector<Mesh*> &meshes) {$/;"	f
+get_index	simulation.cpp	/^int get_index (const Vert *vert, const vector<Mesh*> &meshes) {$/;"	f
+get_mass	collision.cpp	/^double get_mass (const Vert *vert) {return is_free(vert) ? vert->m : obs_mass;}$/;"	f
+get_mesh	obstacle.cpp	/^Mesh& Obstacle::get_mesh() {$/;"	f	class:Obstacle
+get_mesh	obstacle.cpp	/^Mesh& Obstacle::get_mesh(double time_sec) {$/;"	f	class:Obstacle
+get_mesh	obstacle.cpp	/^const Mesh& Obstacle::get_mesh() const {$/;"	f	class:Obstacle
+get_ordered_adjfs	dynamicremesh.cpp	/^vector<Face*> get_ordered_adjfs (const Vert *vert) {$/;"	f
+get_strain_limits	strainlimiting.cpp	/^vector<Vec2> get_strain_limits (const vector<Cloth> &cloths,$/;"	f
+get_subvec	auglag.hpp	/^inline Vec3 get_subvec (const double *x, int i) {$/;"	f
+get_valid_line	io.cpp	/^void get_valid_line (istream &in, string &line) {$/;"	f
+get_velocity	spline.cpp	/^T Spline<T>::get_velocity(int i) const {$/;"	f	class:Spline
+get_vert	simulation.cpp	/^Vert *get_vert (int v, const vector<Mesh*> &meshes) {$/;"	f
+get_xold	collision.cpp	/^const Vec3 &get_xold (const Vert *vert) {$/;"	f
+gradient	constraint.cpp	/^MeshGrad EqCon::gradient () {MeshGrad grad; grad[vert] = n; return grad;}$/;"	f	class:EqCon
+gradient	constraint.cpp	/^MeshGrad IneqCon::gradient () {$/;"	f	class:IneqCon
+gravity	simulation.hpp	/^    Vec3 gravity;$/;"	m	struct:Simulation
+h	display.cpp	/^struct Win {int w, h;} win;$/;"	m	struct:Win	file:
+handle_stiffness	magic.hpp	/^    double handle_stiffness, collision_stiffness;$/;"	m	struct:Magic
+handles	simulation.hpp	/^    std::vector<Handle> handles;$/;"	m	struct:Simulation
+height	bvh.hpp	/^	FORCEINLINE float height() const { return _dist[10] - _dist[1]; }$/;"	f	class:kDOP18
+ideal_angle	geometry.cpp	/^double ideal_angle (const Vert *vert0, const Vert *vert1, const Mat2x2 &S) {$/;"	f
+identity	transformation.cpp	/^Transformation identity () {$/;"	f
+idle	displayphysics.cpp	/^static void idle () {$/;"	f	file:
+idle	displayreplay.cpp	/^static void idle () {$/;"	f	file:
+idle	displaytesting.cpp	/^static void idle () {$/;"	f	file:
+impacts	collision.cpp	/^    vector<Impact> impacts;$/;"	m	struct:ImpactZone	file:
+impacts	collision.cpp	/^static vector<Impact> *impacts = NULL;$/;"	v	file:
+implicit_update	physics.cpp	/^void implicit_update (Cloth &cloth, const vector<Vec3> &fext,$/;"	f
+improve_some_face	dynamicremesh.cpp	/^bool improve_some_face (vector<Face*> &active, Mesh &mesh) {$/;"	f
+include	util.hpp	/^template <typename T> inline void include (const T &x, std::vector<T> &xs) {$/;"	f
+include_all	dynamicremesh.cpp	/^template <typename T> void include_all (const vector<T> &u, vector<T> &v) {for (int i = 0; i < u.size(); i++) include(u[i], v);}$/;"	f
+independent	dynamicremesh.cpp	/^bool independent (const Edge edge, const vector<Edge> &edges) {$/;"	f
+independent_edges	dynamicremesh.cpp	/^vector<Edge> independent_edges (const vector<Edge> &edges) {$/;"	f
+independent_impacts	collision.cpp	/^vector<Impact> independent_impacts (const vector<Impact> &impacts) {$/;"	f
+index	mesh.hpp	/^    int index; \/\/ position in mesh.faces$/;"	m	struct:Face
+index	mesh.hpp	/^    int index; \/\/ position in mesh.verts$/;"	m	struct:Vert
+indices	physics.cpp	/^Vec<3,int> indices (const Vert *v0, const Vert *v1, const Vert *v2) {$/;"	f
+indices	physics.cpp	/^Vec<4,int> indices (const Vert *v0, const Vert *v1,$/;"	f
+indices	sparse.hpp	/^    std::vector<int> indices;$/;"	m	struct:SpVec
+infinity	util.cpp	/^const double infinity = numeric_limits<double>::infinity();$/;"	v
+init_display	displayphysics.cpp	/^void init_display() {$/;"	f
+init_physics	runphysics.cpp	/^void init_physics (const string &json_file, string outprefix,$/;"	f
+init_resume	runphysics.cpp	/^void init_resume(const vector<string> &args) {$/;"	f
+initialize	collision.cpp	/^void NormalOpt::initialize (double *x) const {$/;"	f	class:NormalOpt
+initialize	separate.cpp	/^void SeparationOpt::initialize (double *x) const {$/;"	f	class:SeparationOpt
+initialize	separateobs.cpp	/^void SeparationOpt::initialize (double *x) const {$/;"	f	class:SO::SeparationOpt
+initialize	strainlimiting.cpp	/^void SLOpt::initialize (double *x) const {$/;"	f	class:SLOpt
+inprefix	displayreplay.cpp	/^static string inprefix, outprefix;$/;"	v	file:
+insert_index	sparse.hpp	/^template <typename T> void insert_index (int i, int j,$/;"	f
+inside	bvh.cpp	/^	FORCEINLINE bool inside(const vec3f &mid) const {$/;"	f	class:aap
+inside	bvh.hpp	/^	FORCEINLINE bool inside(const vec3f &p) const$/;"	f	class:kDOP18
+intersection_midpoint	separate.cpp	/^bool intersection_midpoint (const Face *face0, const Face *face1,$/;"	f
+intersection_midpoint	separateobs.cpp	/^bool intersection_midpoint (const Face *face0, const Face *face1,$/;"	f	namespace:SO
+inv	vectors.hpp	/^    MatmnT inv () const {return inverse(*this);}$/;"	f	class:Mat
+invDm	mesh.hpp	/^    Mat2x2 Dm, invDm; \/\/ finite element matrix$/;"	m	struct:Face
+inv_m	collision.cpp	/^    double inv_m;$/;"	m	struct:NormalOpt	file:
+inv_m	separate.cpp	/^    double inv_m;$/;"	m	struct:SeparationOpt	file:
+inv_m	separateobs.cpp	/^    double inv_m;$/;"	m	struct:SO::SeparationOpt	file:
+inv_m	strainlimiting.cpp	/^    double inv_m;$/;"	m	struct:SLOpt	file:
+inverse	remesh.cpp	/^RemeshOp RemeshOp::inverse () const {$/;"	f	class:RemeshOp
+inverse	transformation.cpp	/^Quaternion inverse(const Quaternion &q) {$/;"	f
+inverse	transformation.cpp	/^Transformation inverse(const Transformation &tr) {$/;"	f
+inverse	vectors.hpp	/^template <typename T> Mat<2,2,T> inverse (const Mat<2,2,T> &A) {return Mat<2,2,T>(Vec<2,T>(A(1,1), -A(1,0)), Vec<2,T>(-A(0,1), A(0,0)))\/det(A);}$/;"	f
+inverse	vectors.hpp	/^template <typename T> Mat<3,3,T> inverse (const Mat<3,3,T> &A) {return Mat<3,3,T>(cross(A.col(1),A.col(2)), cross(A.col(2),A.col(0)), cross(A.col(0),A.col(1)))\/det(A);}$/;"	f
+inverted	dynamicremesh.cpp	/^bool inverted (const Face *face, const Vec3 &n) {return dot(n,face->n) <= 0;}$/;"	f
+isLeaf	bvh.hpp	/^	FORCEINLINE bool isLeaf() { return _left == NULL; }$/;"	f	class:DeformBVHNode
+isRoot	bvh.hpp	/^	FORCEINLINE bool isRoot() { return _parent == NULL;}$/;"	f	class:DeformBVHNode
+is_all_whitespace	mot_parser.cpp	/^bool is_all_whitespace(const string& empty) {$/;"	f
+is_boundary	util.cpp	/^bool is_boundary (const Face *f) {$/;"	f
+is_boundary	util.cpp	/^bool is_boundary (const Vert *v) {$/;"	f
+is_boundary_edge	util.cpp	/^bool is_boundary_edge (const Vert *v0, const Vert *v1) {$/;"	f
+is_free	collisionutil.cpp	/^bool is_free (const Face *face) {$/;"	f
+is_free	collisionutil.cpp	/^bool is_free (const Vert *vert) {$/;"	f
+is_inside	geometry.cpp	/^bool is_inside(const Vec2& point, const Face* f) {$/;"	f
+is_seam	util.cpp	/^bool is_seam (const Vert *v) {$/;"	f
+is_seam_edge	util.cpp	/^bool is_seam_edge (const Vert *v0, const Vert *v1) {$/;"	f
+isfinite	winport.hpp	/^template <class T> inline bool isfinite(const T& number) { return boost::math::isfinite(number); }$/;"	f
+ixns	separate.cpp	/^    const vector<Ixn> &ixns;$/;"	m	struct:SeparationOpt	file:
+ixns	separate.cpp	/^static vector<Ixn> *ixns = NULL;$/;"	v	file:
+ixns	separateobs.cpp	/^    const vector<Ixn> &ixns;$/;"	m	struct:SO::SeparationOpt	file:
+ixns	separateobs.cpp	/^static vector<Ixn> *ixns = NULL;$/;"	m	namespace:SO	file:
+kDOP18	bvh.hpp	/^	FORCEINLINE kDOP18() {$/;"	f	class:kDOP18
+kDOP18	bvh.hpp	/^	FORCEINLINE kDOP18(const vec3f &a, const vec3f &b) {$/;"	f	class:kDOP18
+kDOP18	bvh.hpp	/^	FORCEINLINE kDOP18(const vec3f &v) {$/;"	f	class:kDOP18
+kDOP18	bvh.hpp	/^class kDOP18 {$/;"	c
+key	nearobs.cpp	/^    double key;$/;"	m	struct:Min	file:
+key	proximity.cpp	/^    double key;$/;"	m	struct:Min	file:
+keyboard	displayphysics.cpp	/^static void keyboard (unsigned char key, int x, int y) {$/;"	f	file:
+keyboard	displayreplay.cpp	/^static void keyboard (unsigned char key, int x, int y) {$/;"	f	file:
+keyboard	displaytesting.cpp	/^static void keyboard (unsigned char key, int x, int y) {$/;"	f	file:
+kronecker	physics.cpp	/^Mat<m*p,n*q> kronecker (const Mat<m,n> &A, const Mat<p,q> &B) {$/;"	f
+l	vectors.hpp	/^    Vec<n> l;$/;"	m	struct:Eig
+labeled_edges	mesh.hpp	/^    std::vector<LabeledEdge> labeled_edges;$/;"	m	struct:Mesh
+lambda	auglag.cpp	/^static vector<double> lambda;$/;"	v	file:
+last	timer.hpp	/^    double last, total;$/;"	m	struct:Timer
+lat	display.cpp	/^struct View {double lat, lon, x_off, y_off;} view;$/;"	m	struct:View	file:
+leaves	collisionutil.hpp	/^    std::vector<BVHNode*> leaves;$/;"	m	struct:AccelStruct
+length	bvh.hpp	/^	FORCEINLINE float length(int i) const {$/;"	f	class:kDOP18
+lerp	display.cpp	/^template <typename T> T lerp (double t, double a, double b, const T &x, const T &y) {return x + (t-a)\/(b-a)*(y-x);}$/;"	f
+load_json	conf.cpp	/^void load_json (const string &configFilename, Simulation &sim) {$/;"	f
+load_material_data	conf.cpp	/^void load_material_data (Cloth::Material &material, const string &filename) {$/;"	f
+load_mot	mot_parser.cpp	/^std::vector<Motion> load_mot (const std::string &filename, double fps) {$/;"	f
+load_obj	io.cpp	/^void load_obj (Mesh &mesh, const string &filename) {$/;"	f
+load_objs	io.cpp	/^void load_objs (vector<Mesh*> &meshes, const string &prefix) {$/;"	f
+log2	winport.hpp	/^template <class T> inline T log2(const T& number) { return log(number)\/log(T(2)); }$/;"	f
+lon	display.cpp	/^struct View {double lat, lon, x_off, y_off;} view;$/;"	m	struct:View	file:
+m	handle.hpp	/^    int c, v, m; \/\/ cloth, vertex, motion indices$/;"	m	struct:Handle
+m	mesh.hpp	/^    double a, m; \/\/ area, mass$/;"	m	struct:Face
+m	mesh.hpp	/^    double a, m; \/\/ area, mass$/;"	m	struct:Vert
+m	sparse.hpp	/^    int m, n;$/;"	m	struct:SpMat
+magic	magic.cpp	/^Magic magic;$/;"	v
+main	main.cpp	/^int main (int argc, char **argv) {$/;"	f
+major_axis	separate.cpp	/^int major_axis (const Vec3 &v) {$/;"	f
+major_axis	separateobs.cpp	/^int major_axis (const Vec3 &v) {$/;"	f	namespace:SO
+make_constraint	proximity.cpp	/^Constraint *make_constraint (const Vert *vert, const Face *face) {$/;"	f
+make_edge	util.cpp	/^Edge make_edge (const Vert *vert0, const Vert *vert1) {$/;"	f
+malloc_align	vectors.hpp	/^inline void* malloc_align(size_t size, size_t alignment = 32) { return _aligned_malloc(size, alignment); }$/;"	f
+malloc_align	vectors.hpp	/^inline void* malloc_align(size_t size, size_t alignment = 32) {$/;"	f
+mark_active	collisionutil.cpp	/^void mark_active (AccelStruct &acc, const Face *face) {$/;"	f
+mark_all_inactive	collisionutil.cpp	/^void mark_all_inactive (AccelStruct &acc) {$/;"	f
+mark_ancestors	collisionutil.cpp	/^void mark_ancestors (BVHNode *node, bool active) {$/;"	f
+mark_descendants	collisionutil.cpp	/^void mark_descendants (BVHNode *node, bool active) {$/;"	f
+mark_vertices_to_preserve	mesh.cpp	/^void mark_vertices_to_preserve (Mesh &mesh) {$/;"	f
+mat	dynamicremesh.cpp	/^    struct Sector {Vec2 mat, tan;};$/;"	m	struct:VertSizing::Sector	file:
+mat_to_vec	blockvectors.hpp	/^Vec<m*n,T> mat_to_vec (const Mat<m,n,T> &A) {$/;"	f
+materials	cloth.hpp	/^    std::vector<Material> materials;$/;"	m	struct:Cloth
+materials	physics.cpp	/^static vector<Cloth::Material> *materials;$/;"	v	file:
+max	conf.cpp	/^    double &min, &max;$/;"	m	struct:Range	file:
+max	util.cpp	/^double Stats::max () const {sort(); return xs.back();}$/;"	f	class:Stats
+max	util.hpp	/^Vec<n,T> max (const Vec<n,T> &u, const Vec<n,T> &v) {$/;"	f
+max	util.hpp	/^template <typename T> T max (const T &a, const T &b, const T &c) {$/;"	f
+max	util.hpp	/^template <typename T> T max (const T &a, const T &b, const T &c, const T &d) {$/;"	f
+max	winport.hpp	46;"	d
+max_iter	collision.cpp	/^static const int max_iter = 50;$/;"	v	file:
+max_iter	separate.cpp	/^static const int max_iter = 100;$/;"	v	file:
+max_iter	separateobs.cpp	/^static const int max_iter = 100;$/;"	m	namespace:SO	file:
+mean	util.cpp	/^double Stats::mean () const {return sum\/xs.size();}$/;"	f	class:Stats
+mean_vert_sizing	dynamicremesh.cpp	/^VertSizing mean_vert_sizing (const Vert *vert0, const Vert *vert1) {$/;"	f
+median	util.cpp	/^double Stats::median () const {return quantile(0.5);}$/;"	f	class:Stats
+merge_meshes	misc.cpp	/^void merge_meshes (const vector<string> &args) {$/;"	f
+merge_zones	collision.cpp	/^void merge_zones (ImpactZone* zone0, ImpactZone *zone1,$/;"	f
+mesh	cloth.hpp	/^    Mesh mesh;$/;"	m	struct:Cloth
+meshes	collisionutil.cpp	/^const vector<Mesh*> *meshes, *obs_meshes;$/;"	v
+meshes	display.cpp	/^static vector<Mesh*> &meshes = sim.cloth_meshes;$/;"	v	file:
+meshes	strainlimiting.cpp	/^    vector<Mesh*> meshes;$/;"	m	struct:SLOpt	file:
+middle_xyz	bvh.cpp	/^inline float middle_xyz(char xyz, const vec3f &p1, const vec3f &p2, const vec3f &p3)$/;"	f
+midpoint	remesh.cpp	/^Vert *midpoint (const Vert *vert0, const Vert *vert1) {$/;"	f
+min	conf.cpp	/^    double &min, &max;$/;"	m	struct:Range	file:
+min	util.cpp	/^double Stats::min () const {sort(); return xs.front();}$/;"	f	class:Stats
+min	util.hpp	/^Vec<n,T> min (const Vec<n,T> &u, const Vec<n,T> &v) {$/;"	f
+min	util.hpp	/^template <typename T> T min (const T &a, const T &b, const T &c) {$/;"	f
+min	util.hpp	/^template <typename T> T min (const T &a, const T &b, const T &c, const T &d) {$/;"	f
+min	winport.hpp	45;"	d
+most_valent_vert	dynamicremesh.cpp	/^Vert *most_valent_vert (const vector<Face*> &faces) {$/;"	f
+mot_parser_exception	mot_parser.hpp	/^    mot_parser_exception(const std::string& error) : error(error) {}$/;"	f	class:mot_parser_exception
+mot_parser_exception	mot_parser.hpp	/^class mot_parser_exception {$/;"	c
+mot_to_spline	mot_parser.cpp	/^vector<Spline<Transformation> > mot_to_spline(string motion_file, const Transformation& tr,$/;"	f
+mot_to_transforms	mot_parser.cpp	/^vector<vector<Transformation> > mot_to_transforms(string motion_file) {$/;"	f
+motion	display.cpp	/^void motion (int x, int y) {$/;"	f
+motion	handle.hpp	/^    const Motion *motion;$/;"	m	struct:Handle
+motions	simulation.hpp	/^    std::vector<Motion> motions;$/;"	m	struct:Simulation
+mouse	display.cpp	/^void mouse (int button, int state, int x, int y) {$/;"	f
+mouse_state	display.cpp	/^struct mouse_state_struct{bool down; int x, y; enum {ROTATE, TRANSLATE, SCALE} func;} mouse_state;$/;"	v	typeref:struct:mouse_state_struct
+mouse_state_struct	display.cpp	/^struct mouse_state_struct{bool down; int x, y; enum {ROTATE, TRANSLATE, SCALE} func;} mouse_state;$/;"	s	file:
+mu	auglag.cpp	/^static double mu;$/;"	v	file:
+mu	constraint.hpp	/^    double mu; \/\/ friction$/;"	m	struct:IneqCon
+mu	proximity.cpp	/^static double mu, mu_obs;$/;"	v	file:
+mu_obs	proximity.cpp	/^static double mu, mu_obs;$/;"	v	file:
+multiplier_update	auglag.cpp	/^static void multiplier_update (const real_1d_array &x) {$/;"	f	file:
+n	collision.cpp	/^    Vec3 n;$/;"	m	struct:Impact	file:
+n	constraint.hpp	/^    Vec3 n;$/;"	m	struct:IneqCon
+n	constraint.hpp	/^    Vec3 x, n;$/;"	m	struct:EqCon
+n	mesh.hpp	/^    Vec3 n; \/\/ local normal, approximate$/;"	m	struct:Vert
+n	mesh.hpp	/^    Vec3 n; \/\/ local normal, exact$/;"	m	struct:Face
+n	separate.cpp	/^    Vec3 n;$/;"	m	struct:Ixn	file:
+n	separateobs.cpp	/^    Vec3 n;$/;"	m	struct:SO::Ixn	file:
+n	sparse.hpp	/^    int m, n;$/;"	m	struct:SpMat
+nModules	simulation.hpp	/^          nModules};$/;"	e	enum:Simulation::__anon4
+name	util.cpp	/^template <typename T> string name (const T *p) {$/;"	f
+ncon	auglag.hpp	/^    int nvar, ncon;$/;"	m	struct:NLOpt
+nearest_obstacle_planes	nearobs.cpp	/^vector<Plane> nearest_obstacle_planes (const Mesh &mesh,$/;"	f
+nearest_point	nearobs.cpp	/^Vec3 nearest_point (const Vec3 &x, const vector<AccelStruct*> &accs,$/;"	f
+newtons_method	collision.cpp	/^double newtons_method (double a, double b, double c, double d, double x0,$/;"	f
+nf	strainlimiting.cpp	/^    int nv, nf;$/;"	m	struct:SLOpt	file:
+nold	separateobs.cpp	/^static vector<Vec3> nold;$/;"	m	namespace:SO	file:
+norm	bvh.cpp	/^inline vec3f norm(vec3f &p1, vec3f &p2, vec3f &p3)$/;"	f
+norm	dynamicremesh.cpp	/^double norm (const Vec<n,T> &v, const Mat<n,n,T> &A) {$/;"	f
+norm	vectors.hpp	/^tpl T norm (const VecnT &u) {return sqrt(norm2(u));}$/;"	f
+norm2	dynamicremesh.cpp	/^double norm2 (const Vec<n,T> &v, const Mat<n,n,T> &A) {return dot(v, A*v);}$/;"	f
+norm2	transformation.cpp	/^double norm2(const Quaternion &q) {$/;"	f
+norm2	vectors.hpp	/^tpl T norm2 (const VecnT &u) {return dot(u,u);}$/;"	f
+normal	display.cpp	/^void normal (const Vec3 &n) {$/;"	f
+normalize	transformation.cpp	/^Quaternion normalize (const Quaternion &q) {$/;"	f
+normalize	vectors.hpp	/^tpl VecnT normalize (const VecnT &u) {T m = norm(u); return m==0 ? VecnT(0) : u\/m;}$/;"	f
+nsamples	dde.cpp	/^static const int nsamples = 30;$/;"	v	file:
+nthreads	collision.cpp	/^static int nthreads = 0;$/;"	v	file:
+nthreads	separate.cpp	/^static int nthreads = 0;$/;"	v	file:
+nthreads	separateobs.cpp	/^static int nthreads = 0;$/;"	m	namespace:SO	file:
+num_bodies	mot_parser.cpp	/^size_t num_bodies(BodyVector &bodies) {$/;"	f
+num_frames	mot_parser.cpp	/^size_t num_frames(BodyVector &bodies) {$/;"	f
+nv	strainlimiting.cpp	/^    int nv, nf;$/;"	m	struct:SLOpt	file:
+nvar	auglag.hpp	/^    int nvar, ncon;$/;"	m	struct:NLOpt
+obj2cyl	misc.cpp	/^void obj2cyl (const vector<string> &args) {$/;"	f
+obj2png_filename	display.cpp	/^string obj2png_filename;$/;"	v
+obj_grad	collision.cpp	/^void NormalOpt::obj_grad (const double *x, double *grad) const {$/;"	f	class:NormalOpt
+obj_grad	separate.cpp	/^void SeparationOpt::obj_grad (const double *x, double *grad) const {$/;"	f	class:SeparationOpt
+obj_grad	separateobs.cpp	/^void SeparationOpt::obj_grad (const double *x, double *grad) const {$/;"	f	class:SO::SeparationOpt
+obj_grad	strainlimiting.cpp	/^void SLOpt::obj_grad (const double *x, double *grad) const {$/;"	f	class:SLOpt
+objective	collision.cpp	/^double NormalOpt::objective (const double *x) const {$/;"	f	class:NormalOpt
+objective	separate.cpp	/^double SeparationOpt::objective (const double *x) const {$/;"	f	class:SeparationOpt
+objective	separateobs.cpp	/^double SeparationOpt::objective (const double *x) const {$/;"	f	class:SO::SeparationOpt
+objective	strainlimiting.cpp	/^double SLOpt::objective (const double *x) const {$/;"	f	class:SLOpt
+obs_friction	simulation.hpp	/^    double friction, obs_friction;$/;"	m	struct:Simulation
+obs_mass	collision.cpp	/^static double obs_mass;$/;"	v	file:
+obs_meshes	collisionutil.cpp	/^const vector<Mesh*> *meshes, *obs_meshes;$/;"	v
+obstacle_meshes	simulation.hpp	/^    std::vector<Mesh*> cloth_meshes, obstacle_meshes;$/;"	m	struct:Simulation
+obstacle_metric	dynamicremesh.cpp	/^Mat2x2 obstacle_metric (const Face *face, const vector<Plane> &planes) {$/;"	f
+obstacles	simulation.hpp	/^    std::vector<Obstacle> obstacles;$/;"	m	struct:Simulation
+offline_loop	runphysics.cpp	/^void offline_loop() {$/;"	f
+offset_meshes	misc.cpp	/^void offset_meshes (const vector<string> &args) {$/;"	f
+old_meshes	separate.cpp	/^static const vector<Mesh*> *old_meshes;$/;"	v	file:
+old_pos	separate.cpp	/^Vec3 old_pos (const Face *face, const Bary &b) {$/;"	f
+opengl_fail	opengl.hpp	/^inline void opengl_fail () {$/;"	f
+operator !=	vectors.hpp	/^tpl bool operator!= (const VecnT &u, const VecnT &v) {return !(u==v);}$/;"	f
+operator ()	sparse.hpp	/^    T &operator() (int i, int j) {\/\/ inserts entry as side-effect$/;"	f	struct:SpMat
+operator ()	sparse.hpp	/^    T operator() (int i, int j) const {$/;"	f	struct:SpMat
+operator ()	vectors.hpp	/^    T &operator() (int i, int j) {return c[j][i];}$/;"	f	class:Mat
+operator ()	vectors.hpp	/^    const T &operator() (int i, int j) const {return c[j][i];}$/;"	f	class:Mat
+operator ()	vectors.hpp	/^template <> struct static_assertion_failure<true> {void operator() () {}};$/;"	f	struct:static_assertion_failure
+operator *	remesh.cpp	/^template <int n> LeastSquares<n> operator* (const LeastSquares<n> &ls, double a) {return a*ls;}$/;"	f
+operator *	remesh.cpp	/^template <int n> LeastSquares<n> operator* (double a, const LeastSquares<n> &ls) {return LeastSquares<n>(a*ls.A, a*ls.b);}$/;"	f
+operator *	transformation.cpp	/^Quaternion Quaternion::operator*(const Quaternion& other) const {$/;"	f	class:Quaternion
+operator *	transformation.cpp	/^Quaternion Quaternion::operator*(double s) const {$/;"	f	class:Quaternion
+operator *	transformation.cpp	/^Transformation Transformation::operator*(const Transformation& other) const {$/;"	f	class:Transformation
+operator *	transformation.cpp	/^Transformation Transformation::operator*(double s) const {$/;"	f	class:Transformation
+operator *	vectors.hpp	/^inline Vec<3,double>  operator*(const Vec<3,double> &u, const Vec<3,double> &v) { __m256d r = _mm256_mul_pd((__m256d&)u, (__m256d&)v); return (Vec<3,double>&)r; }$/;"	f
+operator *	vectors.hpp	/^template <int m, int n, int o, typename T> Mat<m,o,T> operator* (const Mat<m,n,T> &A, const Mat<n,o,T> &B) {Mat<m,o,T> C; for (int k = 0; k < o; k++) C.col(k) = A*B.col(k); return C;}$/;"	f
+operator *	vectors.hpp	/^template <int m, int n, int o, typename T> Mat<m,o,T> operator* (const Mat<m,n,T> &A, const MatTransposed<o,n,T> &B) $/;"	f
+operator *	vectors.hpp	/^template <int m, int n, int o, typename T> Mat<m,o,T> operator* (const MatTransposed<n,m,T> &A, const Mat<n,o,T> &B) $/;"	f
+operator *	vectors.hpp	/^template <int m, int n, typename T> Vec<n, T> operator* (const MatTransposed<m,n,T> &A, const Vec<m, T> &u) $/;"	f
+operator *	vectors.hpp	/^tpl MatmnT operator* (const MatmnT &A, const T &a) {return a*A;}$/;"	f
+operator *	vectors.hpp	/^tpl MatmnT operator* (const T &a, const MatmnT &A) {MatmnT B; for (int j = 0; j < n; j++) B.col(j) = a*A.col(j); return B;}$/;"	f
+operator *	vectors.hpp	/^tpl VecmT operator* (const MatmnT &A, const VecnT &u) {VecmT v = 0; for (int j = 0; j < n; j++) v += A.col(j)*u[j]; return v;}$/;"	f
+operator *	vectors.hpp	/^tpl VecnT operator* (const T &a, const VecnT &u) {VecnT v; for (int i = 0; i < n; i++) v[i] = a*u[i]; return v;}$/;"	f
+operator *	vectors.hpp	/^tpl VecnT operator* (const VecnT &u, const T &a) {return a*u;}$/;"	f
+operator *<	vectors.hpp	/^template<> inline Vec<3,double> operator*<3,double>(const double &a, const Vec<3,double> &v) { __m256d r = _mm256_mul_pd(_mm256_set1_pd(a), (__m256d&)v); return (Vec<3,double>&)r; }$/;"	v
+operator *=	remesh.cpp	/^template <int n> LeastSquares<n> &operator*= (LeastSquares<n> &ls, double a) {ls = ls*a; return ls;}$/;"	f
+operator *=	vectors.hpp	/^inline Vec<3,double>& operator*=(Vec<3,double> &r, const Vec<3,double> &v)      { (__m256d&)r = _mm256_mul_pd((__m256d&)r, (__m256d&)v); return r; }$/;"	f
+operator *=	vectors.hpp	/^tpl MatmnT &operator*= (MatmnT &A, const T &a) {return A = A*a;}$/;"	f
+operator *=	vectors.hpp	/^tpl MatmnT *operator*= (const MatmnT &A, const MatnnT &B) {return A = A*B;}$/;"	f
+operator *=	vectors.hpp	/^tpl VecnT &operator*= (VecnT &u, const T &a) {return u = u*a;}$/;"	f
+operator +	bvh.hpp	/^	FORCEINLINE kDOP18 operator + ( const kDOP18 &v) const$/;"	f	class:kDOP18
+operator +	remesh.cpp	/^template <int n> LeastSquares<n> operator+ (const LeastSquares<n> &ls1, const LeastSquares<n> &ls2) {return LeastSquares<n>(ls1.A+ls2.A, ls1.b+ls2.b);}$/;"	f
+operator +	transformation.cpp	/^Quaternion Quaternion::operator+(const Quaternion& other) const {$/;"	f	class:Quaternion
+operator +	transformation.cpp	/^Transformation Transformation::operator+(const Transformation& other) const {$/;"	f	class:Transformation
+operator +	vectors.hpp	/^tpl MatmnT operator+ (const MatmnT &A) {return A;}$/;"	f
+operator +	vectors.hpp	/^tpl MatmnT operator+ (const MatmnT &A, const MatmnT &B) {MatmnT C; for (int j = 0; j < n; j++) C.col(j) = A.col(j) + B.col(j); return C;}$/;"	f
+operator +	vectors.hpp	/^tpl VecnT operator+ (const VecnT &u) {return u;}$/;"	f
+operator +	vectors.hpp	/^tpl VecnT operator+ (const VecnT &u, const VecnT &v) {VecnT w; for (int i = 0; i < n; i++) w[i] = u[i] + v[i]; return w;}$/;"	f
+operator +<	vectors.hpp	/^template<> inline Vec<3,double> operator+<3,double>(const Vec<3,double> &u, const Vec<3,double> &v) { __m256d r = _mm256_add_pd((__m256d&)u, (__m256d&)v); return (Vec<3,double>&)r; }$/;"	v
+operator +=	bvh.hpp	/^	FORCEINLINE kDOP18 &operator += (const kDOP18 &b)$/;"	f	class:kDOP18
+operator +=	bvh.hpp	/^	FORCEINLINE kDOP18 &operator += (const vec3f &p)$/;"	f	class:kDOP18
+operator +=	remesh.cpp	/^template <int n> LeastSquares<n> &operator+= (LeastSquares<n> &ls1, const LeastSquares<n> &ls2) {ls1 = ls1 + ls2; return ls1;}$/;"	f
+operator +=	vectors.hpp	/^tpl MatmnT &operator+= (MatmnT &A, const MatmnT &B) {return A = A + B;}$/;"	f
+operator +=	vectors.hpp	/^tpl VecnT &operator+= (VecnT &u, const VecnT &v) {return u = u + v;}$/;"	f
+operator +=<	vectors.hpp	/^template<> inline Vec<3,double>& operator+=<3,double>(Vec<3,double> &r, const Vec<3,double> &v) { (__m256d&)r = _mm256_add_pd((__m256d&)r, (__m256d&)v); return r; }$/;"	v
+operator -	transformation.cpp	/^Quaternion Quaternion::operator-() const {$/;"	f	class:Quaternion
+operator -	transformation.cpp	/^Quaternion Quaternion::operator-(const Quaternion& other) const {$/;"	f	class:Quaternion
+operator -	transformation.cpp	/^Transformation Transformation::operator-(const Transformation& other) const {$/;"	f	class:Transformation
+operator -	vectors.hpp	/^tpl MatmnT operator- (const MatmnT &A) {MatmnT B; for (int j = 0; j < n; j++) B.col(j) = -A.col(j); return B;}$/;"	f
+operator -	vectors.hpp	/^tpl MatmnT operator- (const MatmnT &A, const MatmnT &B) {return A + (-B);}$/;"	f
+operator -	vectors.hpp	/^tpl VecnT operator- (const VecnT &u) {VecnT v; for (int i = 0; i < n; i++) v[i] = -u[i]; return v;}$/;"	f
+operator -	vectors.hpp	/^tpl VecnT operator- (const VecnT &u, const VecnT &v) {return u + (-v);}$/;"	f
+operator -<	vectors.hpp	/^template<> inline Vec<3,double> operator-<3,double>(const Vec<3,double> &u, const Vec<3,double> &v) { __m256d r = _mm256_sub_pd((__m256d&)u, (__m256d&)v); return (Vec<3,double>&)r; }$/;"	v
+operator -=	vectors.hpp	/^tpl MatmnT &operator-= (MatmnT &A, const MatmnT &B) {return A = A - B;}$/;"	f
+operator -=	vectors.hpp	/^tpl VecnT &operator-= (VecnT &u, const VecnT &v) {return u = u - v;}$/;"	f
+operator -=<	vectors.hpp	/^template<> inline Vec<3,double>& operator-=<3,double>(Vec<3,double> &r, const Vec<3,double> &v) { (__m256d&)r = _mm256_sub_pd((__m256d&)r, (__m256d&)v); return r; }$/;"	v
+operator /	remesh.cpp	/^template <int n> LeastSquares<n> operator\/ (const LeastSquares<n> &ls, double a) {return (1\/a)*ls;}$/;"	f
+operator /	transformation.cpp	/^Quaternion Quaternion::operator\/(double s) const {$/;"	f	class:Quaternion
+operator /	transformation.cpp	/^Transformation Transformation::operator\/(double s) const {$/;"	f	class:Transformation
+operator /	vectors.hpp	/^inline Vec<3,double>  operator\/(const Vec<3,double> &u, const Vec<3,double> &v) { __m256d r = _mm256_div_pd((__m256d&)u, (__m256d&)v); return (Vec<3,double>&)r; }$/;"	f
+operator /	vectors.hpp	/^tpl MatmnT operator\/ (const MatmnT &A, const T &a) {return A*(1\/a);}$/;"	f
+operator /	vectors.hpp	/^tpl VecnT operator\/ (const VecnT &u, const T &a) {return u*(1\/a);}$/;"	f
+operator /<	vectors.hpp	/^template<> inline Vec<3,double> operator\/<3,double>(const Vec<3,double> &u, const double &a) { __m256d r = _mm256_div_pd((__m256d&)u, _mm256_set1_pd(a)); return (Vec<3,double>&)r; }$/;"	v
+operator /=	remesh.cpp	/^template <int n> LeastSquares<n> &operator\/= (LeastSquares<n> &ls, double a) {ls = ls\/a; return ls;}$/;"	f
+operator /=	vectors.hpp	/^inline Vec<3,double>& operator\/=(Vec<3,double> &r, const Vec<3,double> &v)      { (__m256d&)r = _mm256_div_pd((__m256d&)r, (__m256d&)v); return r; }$/;"	f
+operator /=	vectors.hpp	/^tpl MatmnT &operator\/= (MatmnT &A, const T &a) {return A = A\/a;}$/;"	f
+operator /=	vectors.hpp	/^tpl VecnT &operator\/= (VecnT &u, const T &a) {return u = u\/a;}$/;"	f
+operator <	collision.cpp	/^bool operator< (const Impact &impact0, const Impact &impact1) {$/;"	f
+operator <<	remesh.cpp	/^ostream &operator<< (ostream &out, const RemeshOp &op) {$/;"	f
+operator <<	remesh.cpp	/^template <int n> ostream &operator<< (ostream &out, const LeastSquares<n> &ls) {out << ls.A << " \\\\ " << ls.b; return out;}$/;"	f
+operator <<	remesh.cpp	/^template <typename T> ostream &operator<< (ostream &out, const vector<T*> &ps) {$/;"	f
+operator <<	separate.cpp	/^ostream &operator<< (ostream &out, const Ixn &ixn) {out << ixn.f0 << "@" << ixn.b0 << " " << ixn.f1 << "@" << ixn.b1 << " " << ixn.n; return out;}$/;"	f
+operator <<	separateobs.cpp	/^ostream &operator<< (ostream &out, const Ixn &ixn) {out << ixn.f0 << "@" << ixn.b0 << " " << ixn.f1 << "@" << ixn.b1 << " " << ixn.n; return out;}$/;"	f	namespace:SO
+operator <<	sparse.hpp	/^std::ostream &operator<< (std::ostream &out, const SpMat<T> &A) {$/;"	f
+operator <<	sparse.hpp	/^std::ostream &operator<< (std::ostream &out, const SpVec<T> &v) {$/;"	f
+operator <<	taucs.cpp	/^ostream &operator<< (ostream &out, taucs_ccs_matrix *A) {$/;"	f
+operator <<	transformation.cpp	/^ostream &operator<< (ostream &out, const Quaternion &q) {$/;"	f
+operator <<	util.cpp	/^ostream &operator<< (ostream &out, const Face *face) {$/;"	f
+operator <<	util.cpp	/^ostream &operator<< (ostream &out, const Stats &stats) {$/;"	f
+operator <<	util.cpp	/^ostream &operator<< (ostream &out, const Vert *vert) {$/;"	f
+operator <<	util.hpp	/^std::ostream &operator<< (std::ostream &out, const std::vector<T> &v) {$/;"	f
+operator <<	vectors.hpp	/^tpl std::ostream &operator<< (std::ostream &out, const MatmnT &A) {MatnmT At = transpose(A); out << "(" << std::endl; for (int i = 0; i < m; i++) out << "    " << At.col(i) << std::endl; out << ")"; return out;}$/;"	f
+operator <<	vectors.hpp	/^tpl std::ostream &operator<< (std::ostream &out, const VecnT &u) {out << "("; for (int i = 0; i < n; i++) out << (i==0?"":", ") << u[i]; out << ")"; return out;}$/;"	f
+operator ==	vectors.hpp	/^tpl bool operator== (const VecnT &u, const VecnT &v) {for(int i=0; i<n; ++i) if(u[i] != v[i]) return false; return true;}$/;"	f
+operator []	sparse.hpp	/^    T &operator[] (int i) {\/\/ inserts entry as side-effect$/;"	f	struct:SpVec
+operator []	sparse.hpp	/^    T operator[] (int i) const {$/;"	f	struct:SpVec
+operator []	vectors.hpp	/^    T &operator[] (int i) {return c[i];}$/;"	f	class:Vec
+operator []	vectors.hpp	/^    const T &operator[] (int i) const {return c[i];}$/;"	f	class:Vec
+operator delete	vectors.hpp	/^inline void  operator delete(void *ptr)   { aligned_free(ptr); }$/;"	f
+operator delete[]	vectors.hpp	/^inline void  operator delete[](void *ptr) { aligned_free(ptr); }$/;"	f
+operator new	vectors.hpp	/^inline void* operator new(size_t sz)      { return malloc_align(sz); }$/;"	f
+operator new[]	vectors.hpp	/^inline void* operator new[](size_t sz)    { return malloc_align(sz); }$/;"	f
+orient	mot_parser.hpp	/^    Vec4 orient;$/;"	m	struct:BodyFrame
+outer	vectors.hpp	/^tpl MatmnT outer (const VecmT &u, const VecnT &v) {MatmnT A; for (int j = 0; j < n; j++) A.col(j) = u*v[j]; return A;}$/;"	f
+outprefix	displayreplay.cpp	/^static string inprefix, outprefix;$/;"	v	file:
+outprefix	displaytesting.cpp	/^static string outprefix;$/;"	v	file:
+outprefix	runphysics.cpp	/^static string outprefix;$/;"	v	file:
+overlap	bvh.cpp	/^bool overlap (const BOX &box0, const BOX &box1, float thickness) {$/;"	f
+overlaps	bvh.hpp	/^	FORCEINLINE bool overlaps(const kDOP18 &b, kDOP18 &ret) const$/;"	f	class:kDOP18
+overlaps	bvh.hpp	/^	FORCEINLINE bool overlaps(const kDOP18& b) const$/;"	f	class:kDOP18
+parse	conf.cpp	/^template <int n> void parse (Vec<n> &v, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^template <typename T> void parse (T &x, const Json::Value &json, const T &x0) {$/;"	f
+parse	conf.cpp	/^template <typename T> void parse (vector<T> &v, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (BendingData &data, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (Box &box, const Json::Value &json, const Box &box0) {$/;"	f
+parse	conf.cpp	/^void parse (Cloth &cloth, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (Cloth::Material &material, Box &box, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (Cloth::Remeshing &remeshing, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (Magic &magic, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (Motion &motion, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (Motion::Point &mp, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (Range range, const Json::Value &json, Vec2 range0) {$/;"	f
+parse	conf.cpp	/^void parse (StretchingSamples &samples, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (Transformation& transform, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (Wind &wind, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (bool &b, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (double &x, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (int &n, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (string &s, const Json::Value &json) {$/;"	f
+parse	conf.cpp	/^void parse (vector<S> &u, vector<T> &v, const Json::Value &json) {$/;"	f
+parse_handle	conf.cpp	/^void parse_handle (vector<Handle> &hans, const Json::Value &json) {$/;"	f
+parse_handles	conf.cpp	/^void parse_handles (vector<Handle> &hans, const Json::Value &jsons) {$/;"	f
+parse_motions	conf.cpp	/^void parse_motions (vector<Motion> &motions, const Json::Value &json) {$/;"	f
+parse_obstacle	conf.cpp	/^void parse_obstacle (Obstacle &obstacle, const Json::Value &json,$/;"	f
+parse_obstacles	conf.cpp	/^void parse_obstacles (vector<Obstacle> &obstacles, const Json::Value &json,$/;"	f
+perimeter	dynamicremesh.cpp	/^double perimeter (const Vec2 &u0, const Vec2 &u1, const Vec2 &u2) {$/;"	f
+perp	geometry.cpp	/^Vec2 perp (const Vec2 &u) {return Vec2(-u[1], u[0]);}$/;"	f
+physics	simulation.cpp	/^                 physics = Simulation::Physics,$/;"	v	file:
+physics_step	simulation.cpp	/^void physics_step (Simulation &sim, const vector<Constraint*> &cons) {$/;"	f
+plane	remesh.cpp	/^template <int d> LeastSquares<d> plane (const Vec<d> &x, const Vec<d> &n) {$/;"	f
+point_box_distance	nearobs.cpp	/^double point_box_distance (const Vec3 &x, const BOX &box) {$/;"	f
+point_triangle_distance	geometry.cpp	/^double point_triangle_distance (const Vec3 &Xi,$/;"	f
+points	spline.hpp	/^    std::vector<Point> points;$/;"	m	class:Spline
+pos	collision.cpp	/^Vec3 pos (const Vert *vert, double t) {$/;"	f
+pos	mot_parser.hpp	/^    Vec3 pos;$/;"	m	struct:BodyFrame
+pos	separate.cpp	/^Vec3 pos (const Face *face, const Bary &b) {$/;"	f
+pos	separateobs.cpp	/^Vec3 pos (const Face *face, const Bary &b) {$/;"	f	namespace:SO
+pos	spline.cpp	/^T Spline<T>::pos (double t) const {$/;"	f	class:Spline
+precompute	auglag.hpp	/^    virtual void precompute (const double *x) const {}$/;"	f	struct:NLOpt
+precompute	collision.cpp	/^void NormalOpt::precompute (const double *x) const {$/;"	f	class:NormalOpt
+precompute	strainlimiting.cpp	/^void SLOpt::precompute (const double *x) const {$/;"	f	class:SLOpt
+prepare	simulation.cpp	/^void prepare (Simulation &sim) {$/;"	f
+preserve	mesh.hpp	/^    bool preserve; \/\/ don't remove this vertex$/;"	m	struct:Vert
+print_xml_cylinder	misc.cpp	/^void print_xml_cylinder(const Edge& e, fstream& file) {$/;"	f
+problem	auglag.cpp	/^static const NLOpt *problem;$/;"	v	file:
+project	constraint.cpp	/^MeshGrad EqCon::project () {return MeshGrad();}$/;"	f	class:EqCon
+project	constraint.cpp	/^MeshGrad IneqCon::project () {$/;"	f	class:IneqCon
+project	vectors.hpp	/^template <int m, int n, typename T> Vec<m,T> project (const VecnT &u) {Vec<m,T> v; for (int i = 0; i < m; i++) v[i] = (i<n) ? u[i] : 0; return v;}$/;"	f
+project_constraints	simulation.cpp	/^void project_constraints (Simulation &sim, const vector<Constraint*> &cons) {$/;"	f
+projection_thickness	magic.hpp	/^    double repulsion_thickness, projection_thickness;$/;"	m	struct:Magic
+proximity	simulation.cpp	/^static const int proximity = Simulation::Proximity,$/;"	v	file:
+proximity_constraints	proximity.cpp	/^vector<Constraint*> proximity_constraints (const vector<Mesh*> &meshes,$/;"	f
+quantile	util.cpp	/^double Stats::quantile (double q) const {sort(); return xs[(int)(q*xs.size())];}$/;"	f	class:Stats
+randf	displaytesting.cpp	/^inline double randf () {return (double)rand()\/RAND_MAX;}$/;"	f
+read_motion_file	mot_parser.cpp	/^BodyVector read_motion_file(const string& filename) {$/;"	f
+read_motion_file	mot_parser.cpp	/^BodyVector read_motion_file(std::istream& istr) {$/;"	f
+refine_angle	cloth.hpp	/^        double refine_angle, refine_compression, refine_velocity;$/;"	m	struct:Cloth::Remeshing
+refine_compression	cloth.hpp	/^        double refine_angle, refine_compression, refine_velocity;$/;"	m	struct:Cloth::Remeshing
+refine_velocity	cloth.hpp	/^        double refine_angle, refine_compression, refine_velocity;$/;"	m	struct:Cloth::Remeshing
+refit	bvh.cpp	/^DeformBVHNode::refit(bool ccd)$/;"	f	class:DeformBVHNode
+refit	bvh.cpp	/^DeformBVHTree::refit()$/;"	f	class:DeformBVHTree
+relax_initial_state	simulation.cpp	/^void relax_initial_state (Simulation &sim) {$/;"	f
+reload	displayreplay.cpp	/^static void reload () {$/;"	f	file:
+remeshing	cloth.hpp	/^    } remeshing;$/;"	m	struct:Cloth	typeref:struct:Cloth::Remeshing
+remeshing	dynamicremesh.cpp	/^static Cloth::Remeshing *remeshing;$/;"	v	file:
+remeshing	simulation.cpp	/^                 remeshing = Simulation::Remeshing,$/;"	v	file:
+remeshing_step	simulation.cpp	/^void remeshing_step (Simulation &sim) {$/;"	f
+remove	util.hpp	/^template <typename T> inline void remove (int i, std::vector<T> &xs) {$/;"	f
+remove_face	mesh.cpp	/^void remove_face (Face* face, Mesh &mesh) {$/;"	f
+remove_vert	mesh.cpp	/^void remove_vert (Vert* vert, Mesh &mesh) {$/;"	f
+removed_edges	remesh.hpp	/^    std::vector<LabeledEdge> added_edges, removed_edges;$/;"	m	struct:RemeshOp
+removed_faces	remesh.hpp	/^    std::vector<Face*> added_faces, removed_faces;$/;"	m	struct:RemeshOp
+removed_verts	remesh.hpp	/^    std::vector<Vert*> added_verts, removed_verts;$/;"	m	struct:RemeshOp
+replace	util.hpp	/^inline void replace (const T &x0, const T &x1, std::vector<T> &xs) {$/;"	f
+replace	util.hpp	/^template <typename T> inline void replace (const T &v0, const T &v1, T vs[3]) {$/;"	f
+repulsion_thickness	magic.hpp	/^    double repulsion_thickness, projection_thickness;$/;"	m	struct:Magic
+reseat	handle.cpp	/^void Handle::reseat (const Simulation &sim) {$/;"	f	class:Handle
+reshape	display.cpp	/^void reshape (int w, int h) {$/;"	f
+reshape_ms_texture	display.cpp	/^void reshape_ms_texture (int w, int h) {$/;"	f
+resize	mot_parser.cpp	/^void resize(BodyVector &bodies, size_t nbodies, size_t nframes) {$/;"	f
+resume_physics	runphysics.cpp	/^void resume_physics (const vector<string> &args) {$/;"	f
+rewind_mesh	simulation.cpp	/^void rewind_mesh (Mesh &mesh, double dt) {$/;"	f
+root	collisionutil.hpp	/^    BVHNode *root;$/;"	m	struct:AccelStruct
+rotate	displaytesting.cpp	/^Vec3 rotate (const Vec3 &x, double angle, const Vec3 &axis) {$/;"	f
+rotate	transformation.cpp	/^Vec3 Quaternion::rotate (const Vec3 &x) const {$/;"	f	class:Quaternion
+rotation	dynamicremesh.cpp	/^Mat2x2 rotation (double theta) {$/;"	f
+rotation	transformation.hpp	/^    Quaternion rotation;$/;"	m	struct:Transformation
+row	vectors.hpp	/^    VecnT row (int i) const {VecnT R; for(int col = 0; col < n; ++col) { R[col] = c[col][i]; } return R; }$/;"	f	class:Mat
+rowmat	physics.cpp	/^template <int n> Mat<1,n> rowmat (const Vec<n> &v) {$/;"	f
+rows	sparse.hpp	/^    std::vector< SpVec<T> > rows;$/;"	m	struct:SpMat
+rows	vectors.hpp	/^	static Mat rows (VecnT x, VecnT y) { Mat<2,n,T> M; for(int i = 0; i < n; i++) { M.col(i)[0] = x[i]; M.col(i)[1] = y[i]; } return M; }$/;"	f	class:Mat
+rows	vectors.hpp	/^    static Mat rows (VecnT x, VecnT y, VecnT z) { Mat<3,n,T> M; for(int i = 0; i < n; i++) { M.col(i)[0] = x[i]; M.col(i)[1] = y[i]; M.col(i)[2] = z[i];} return M; }$/;"	f	class:Mat
+rows	vectors.hpp	/^    static Mat rows (VecnT x, VecnT y, VecnT z, VecnT w) { Mat<4,n,T> M; for(int i = 0; i < n; i++) { M.col(i)[0] = x[i]; M.col(i)[1] = y[i]; M.col(i)[2] = z[i]; M.col(i)[3] = w[i];} return M; }$/;"	f	class:Mat
+run_physics	runphysics.cpp	/^void run_physics (const vector<string> &args) {$/;"	f
+running	displayphysics.cpp	/^static bool running = false;$/;"	v	file:
+running	displayreplay.cpp	/^static bool running = false;$/;"	v	file:
+s	dde.hpp	/^struct StretchingSamples {Vec4 s[40][40][40];};$/;"	m	struct:StretchingSamples
+s	strainlimiting.cpp	/^    mutable vector<double> s;$/;"	m	struct:SLOpt	file:
+s	transformation.hpp	/^    double s;$/;"	m	struct:Quaternion
+s	vectors.hpp	/^    Vec<n> s;$/;"	m	struct:SVD
+save	runphysics.cpp	/^static void save (const vector<Mesh*> &meshes, int frame) {$/;"	f	file:
+save	runphysics.cpp	/^void save (const Simulation &sim, int frame) {$/;"	f
+save_obj	io.cpp	/^void save_obj (const Mesh &mesh, const string &filename) {$/;"	f
+save_objs	io.cpp	/^void save_objs (const vector<Mesh*> &meshes, const string &prefix) {$/;"	f
+save_obstacle_transforms	runphysics.cpp	/^static void save_obstacle_transforms (const vector<Obstacle> &obs, int frame,$/;"	f	file:
+save_png	io.cpp	/^void save_png (const char *filename, int width, int height,$/;"	f
+save_screenshot	io.cpp	/^void save_screenshot (const string &filename) {$/;"	f
+save_timings	runphysics.cpp	/^static void save_timings () {$/;"	f	file:
+save_transformation	io.cpp	/^void save_transformation (const Transformation &tr, const string &filename) {$/;"	f
+scale	transformation.hpp	/^    double scale;$/;"	m	struct:Transformation
+sectors	dynamicremesh.cpp	/^    std::vector<Sector> sectors; \/\/ if extraordinary$/;"	m	struct:VertSizing	file:
+segment_segment_distance	geometry.cpp	/^double segment_segment_distance (const Vec3 &a0, const Vec3 &a1,$/;"	f
+separate	separate.cpp	/^void separate (vector<Mesh*> &meshes, const vector<Mesh*> &old_meshes,$/;"	f
+separate_obstacles	separateobs.cpp	/^void separate_obstacles (vector<Mesh*> &obs_meshes,$/;"	f
+separate_obstacles	separateobs.cpp	/^void separate_obstacles (vector<Mesh*> &obs_meshes,$/;"	f	namespace:SO
+separation	simulation.cpp	/^                 separation = Simulation::Separation;$/;"	v	file:
+set_subvec	auglag.hpp	/^inline void set_subvec (double *x, int i, const Vec3 &xi) {$/;"	f
+set_unsigned_ee_distance	geometry.cpp	/^bool set_unsigned_ee_distance (const Vec3 &x0, const Vec3 &x1,$/;"	f
+set_unsigned_ve_distance	geometry.cpp	/^bool set_unsigned_ve_distance (const Vec3 &x, const Vec3 &y0, const Vec3 &y1,$/;"	f
+set_unsigned_vf_distance	geometry.cpp	/^bool set_unsigned_vf_distance (const Vec3 &x,$/;"	f
+sg	strainlimiting.cpp	/^    mutable vector<Mat3x3> sg;$/;"	m	struct:SLOpt	file:
+sgn	displaytesting.cpp	/^inline double sgn (double x) {return x<0 ? -1 : 1;}$/;"	f
+sgn	util.hpp	/^template <typename T> T sgn (const T &x) {return x<0 ? -1 : 1;}$/;"	f
+shape_color	display.cpp	/^Vec3 shape_color (const Vert *vert) {$/;"	f
+shape_operator	geometry.cpp	/^Mat2x2 shape_operator (const Vert *vert) {$/;"	f
+should_flip	dynamicremesh.cpp	/^bool should_flip (const Vert *vert0, const Vert *vert1, const Vert *vert2,$/;"	f
+signed_ee_distance	geometry.cpp	/^double signed_ee_distance (const Vec3 &x0, const Vec3 &x1,$/;"	f
+signed_vf_distance	geometry.cpp	/^double signed_vf_distance (const Vec3 &x,$/;"	f
+sim	runphysics.cpp	/^Simulation sim;$/;"	v
+sim_step	runphysics.cpp	/^void sim_step() {$/;"	f
+singular_value_decomposition	vectors.cpp	/^template<> SVD<3,2> singular_value_decomposition<3,2> (const Mat<3,2> &A) {$/;"	f
+size_max	cloth.hpp	/^        double size_min, size_max; \/\/ size limits$/;"	m	struct:Cloth::Remeshing
+size_min	cloth.hpp	/^        double size_min, size_max; \/\/ size limits$/;"	m	struct:Cloth::Remeshing
+sizing	mesh.hpp	/^    VertSizing *sizing;$/;"	m	struct:Vert
+snprintf	winport.hpp	48;"	d
+solve	remesh.cpp	/^    Vec<n> solve () {return A.inv()*b;}$/;"	f	struct:LeastSquares
+solve_cubic	collision.cpp	/^int solve_cubic (double a, double b, double c, double d, double x[3]) {$/;"	f
+solve_ixns	separate.cpp	/^void solve_ixns (const vector<Ixn> &ixns) {$/;"	f
+solve_ixns	separateobs.cpp	/^void solve_ixns (const vector<Ixn> &ixns) {$/;"	f	namespace:SO
+solve_quadratic	collision.cpp	/^int solve_quadratic (double a, double b, double c, double x[2]) {$/;"	f
+sort	util.cpp	/^void Stats::sort () const {$/;"	f	class:Stats
+sort_faces_by_niceness	dynamicremesh.cpp	/^vector<Face*> sort_faces_by_niceness (const vector<Face*> &faces) {$/;"	f
+sorted	util.hpp	/^    mutable bool sorted;$/;"	m	struct:Stats
+sparse_to_taucs	taucs.cpp	/^taucs_ccs_matrix *sparse_to_taucs (const SpMat<double> &As) {$/;"	f
+sparse_to_taucs	taucs.cpp	/^template <int m> taucs_ccs_matrix *sparse_to_taucs (const SpMat< Mat<m,m> > &As) {$/;"	f
+special	displayreplay.cpp	/^static void special (int key, int x, int y) {$/;"	f	file:
+split_edge	remesh.cpp	/^RemeshOp split_edge (Vert* v0, Vert* v1, const Mesh &mesh) {$/;"	f
+split_meshes	misc.cpp	/^void split_meshes (const vector<string> &args) {$/;"	f
+split_worst_edge	dynamicremesh.cpp	/^bool split_worst_edge (Mesh &mesh) {$/;"	f
+sq	vectors.hpp	/^inline double sq (double x) {return x*x;}$/;"	f
+sqrt	winport.hpp	/^inline double sqrt(int n) { return sqrt(double(n)); }$/;"	f
+start_time	handle.hpp	/^    double start_time, end_time; \/\/ how long the handle will exist$/;"	m	struct:Handle
+static_assert	vectors.hpp	287;"	d
+static_assert	vectors.hpp	71;"	d
+static_assertion_failure	vectors.hpp	/^template <> struct static_assertion_failure<true> {void operator() () {}};$/;"	s
+static_remesh	dynamicremesh.cpp	/^void static_remesh (Cloth &cloth) {$/;"	f
+step	simulation.hpp	/^    int frame, step;$/;"	m	struct:Simulation
+step_time	simulation.hpp	/^    double frame_time, step_time;$/;"	m	struct:Simulation
+stiff	constraint.hpp	/^    double stiff;$/;"	m	struct:EqCon
+stiff	constraint.hpp	/^    double stiff;$/;"	m	struct:IneqCon
+stp	vectors.hpp	/^template <typename T> T stp (const Vec<3,T> &u, const Vec<3,T> &v, const Vec<3,T> &w) {return dot(u,cross(v,w));}$/;"	f
+strain_con	strainlimiting.cpp	/^double strain_con (const SLOpt &sl, const double *x, int j, int &sign) {$/;"	f
+strain_con_grad	strainlimiting.cpp	/^void strain_con_grad (const SLOpt &sl, const double *x, int j, double factor,$/;"	f
+strain_limiting	strainlimiting.cpp	/^void strain_limiting (vector<Mesh*> &meshes, const vector<Vec2> &strain_limits,$/;"	f
+strain_limits	strainlimiting.cpp	/^    const vector<Vec2> &strain_limits;$/;"	m	struct:SLOpt	file:
+strain_max	cloth.hpp	/^        double strain_min, strain_max; \/\/ strain limits$/;"	m	struct:Cloth::Material
+strain_min	cloth.hpp	/^        double strain_min, strain_max; \/\/ strain limits$/;"	m	struct:Cloth::Material
+straincolor	display.cpp	/^Vec3 straincolor (const Face *face) {$/;"	f
+strainlimiting	simulation.cpp	/^                 strainlimiting = Simulation::StrainLimiting,$/;"	v	file:
+strainlimiting_step	simulation.cpp	/^void strainlimiting_step (Simulation &sim, const vector<Constraint*> &cons) {$/;"	f
+strainzeroing_step	simulation.cpp	/^void strainzeroing_step (Simulation &sim) {$/;"	f
+stretching	cloth.hpp	/^        StretchingSamples stretching;$/;"	m	struct:Cloth::Material
+stretching_force	physics.cpp	/^pair<Mat9x9,Vec9> stretching_force (const Face *face) {$/;"	f
+stretching_stiffness	dde.cpp	/^Vec4 stretching_stiffness (const Mat2x2 &G, const StretchingSamples &samples) {$/;"	f
+stringf	util.cpp	/^inline string stringf (const string &format, ...) {$/;"	f
+submat3	physics.cpp	/^template <int m, int n> Mat<3,3> submat3 (const Mat<m,n> &A, int i, int j) {$/;"	f
+subset	util.hpp	/^inline bool subset (const std::vector<T> &xs, const std::vector<T> &ys) {$/;"	f
+subvec3	physics.cpp	/^template <int n> Vec<3> subvec3 (const Vec<n> &b, int i) {$/;"	f
+sum	util.hpp	/^    double sum;$/;"	m	struct:Stats
+symmetrize	blockvectors.hpp	/^template <> inline Mat<3,4> symmetrize<2> () {$/;"	f
+t	collision.cpp	/^    double t;$/;"	m	struct:Impact	file:
+t	spline.hpp	/^    struct Point {double t; T x;};$/;"	m	struct:Spline::Point
+t	vectors.hpp	/^    MatnmT t () const {return transpose(*this);}$/;"	f	class:Mat
+t	vectors.hpp	/^    const Mat<m,n,T>& t () const {return static_cast<const Mat<m, n, T>&>(*this);}$/;"	f	class:MatTransposed
+taccum	auglag.cpp	/^Timer tprec, tobj, talloc, tcons, taccum;$/;"	v
+talloc	auglag.cpp	/^Timer tprec, tobj, talloc, tcons, taccum;$/;"	v
+tan	dynamicremesh.cpp	/^    struct Sector {Vec2 mat, tan;};$/;"	m	struct:VertSizing::Sector	file:
+taucs_linear_solve	taucs.cpp	/^template <int m> vector< Vec<m> > taucs_linear_solve$/;"	f
+taucs_linear_solve	taucs.cpp	/^vector<double> taucs_linear_solve (const SpMat<double> &A, const vector<double> &b) {$/;"	f
+tcons	auglag.cpp	/^Timer tprec, tobj, talloc, tcons, taccum;$/;"	v
+test_sizing	displaytesting.cpp	/^Mat2x2 test_sizing (const Vec2 &u) {$/;"	f
+then	timer.hpp	/^    boost::posix_time::ptime then;$/;"	m	struct:Timer
+thickness	collision.cpp	/^static double thickness;$/;"	v	file:
+thickness	separate.cpp	/^static double thickness;$/;"	v	file:
+tick	timer.cpp	/^void Timer::tick () {$/;"	f	class:Timer
+time	simulation.hpp	/^    double time;$/;"	m	struct:Simulation
+timers	simulation.hpp	/^    Timer timers[nModules];$/;"	m	struct:Simulation
+timingfile	runphysics.cpp	/^static fstream timingfile;$/;"	v	file:
+to_axisangle	transformation.cpp	/^pair<Vec3, double> Quaternion::to_axisangle() const {$/;"	f	class:Quaternion
+to_tan	dynamicremesh.cpp	/^Mat2x2 to_tan (const Mat2x2 &Mmat, const Sector &sec, double t0) {$/;"	f
+to_tan	dynamicremesh.cpp	/^double to_tan (double t, const Sector &sec) {$/;"	f
+tobj	auglag.cpp	/^Timer tprec, tobj, talloc, tcons, taccum;$/;"	v
+tock	timer.cpp	/^void Timer::tock () {$/;"	f	class:Timer
+total	timer.hpp	/^    double last, total;$/;"	m	struct:Timer
+tpl	vectors.hpp	133;"	d
+tpl	vectors.hpp	139;"	d
+tpl	vectors.hpp	200;"	d
+tpl	vectors.hpp	73;"	d
+tprec	auglag.cpp	/^Timer tprec, tobj, talloc, tcons, taccum;$/;"	v
+trace	vectors.hpp	/^template <int n, typename T> T trace (const MatnnT &A) {T t = 0; for (int j = 0; j < n; j++) t += A(j,j); return t;}$/;"	f
+transform_spline	obstacle.hpp	/^    const Motion *transform_spline;$/;"	m	struct:Obstacle
+translation	transformation.hpp	/^    Vec3 translation;$/;"	m	struct:Transformation
+transpose	blockvectors.hpp	/^template <int m, int n> Mat<m*n,m*n,double> transpose () {$/;"	f
+transpose	vectors.hpp	/^tpl MatnmT transpose (const MatmnT &A) {MatnmT B; for (int i = 0; i < m; i++) for (int j = 0; j < n; j++) B(j,i) = A(i,j); return B;}$/;"	f
+tree	collisionutil.hpp	/^    BVHTree tree;$/;"	m	struct:AccelStruct
+tri2obj	misc.cpp	/^void tri2obj (const vector<string> &args) {$/;"	f
+triangle_to_obj	io.cpp	/^void triangle_to_obj (const string &inname, const string &outname) {$/;"	f
+triangulate	io.cpp	/^vector<Face*> triangulate (const vector<Vert*> &verts, const vector<Vec2> &us) {$/;"	f
+try_edge_collapse	dynamicremesh.cpp	/^RemeshOp try_edge_collapse (Vert *vert0, Vert *vert1, Mesh &mesh) {$/;"	f
+type	collision.cpp	/^    enum Type {VF, EE} type;$/;"	m	struct:Impact	typeref:enum:Impact::Type	file:
+type	dynamicremesh.cpp	/^    enum {FLAT, SEAM, EXTRAORDINARY} type;$/;"	m	struct:VertSizing	typeref:enum:VertSizing::__anon3	file:
+type	mesh.hpp	/^    int type; \/\/ type of material$/;"	m	struct:Face
+u	dynamicremesh.cpp	/^    std::vector<Vec2> u; \/\/ if seam or extraordinary$/;"	m	struct:VertSizing	file:
+u	mesh.cpp	/^const Vec2 &u (const Vert *vert, const Face *face) {$/;"	f
+u	mesh.hpp	/^    Vec2 u[3]; \/\/ material space coordinates$/;"	m	struct:Face
+uint	util.hpp	/^typedef unsigned int uint;$/;"	t
+umax	conf.cpp	/^    Vec2 umin, umax;$/;"	m	struct:Box	file:
+umin	conf.cpp	/^    Vec2 umin, umax;$/;"	m	struct:Box	file:
+unsigned_ee_distance	geometry.cpp	/^double unsigned_ee_distance (const Vec3 &x0, const Vec3 &x1,$/;"	f
+unsigned_vf_distance	geometry.cpp	/^double unsigned_vf_distance (const Vec3 &x,$/;"	f
+update_accel_struct	collisionutil.cpp	/^void update_accel_struct (AccelStruct &acc) {$/;"	f
+update_active	collision.cpp	/^void update_active (const vector<AccelStruct*> &accs,$/;"	f
+update_active	dynamicremesh.cpp	/^void update_active (const RemeshOp &op, vector<Face*> &active) {$/;"	f
+update_active	dynamicremesh.cpp	/^void update_active (const vector<RemeshOp> &ops, vector<Face*> &active) {$/;"	f
+update_active	separate.cpp	/^void update_active (const vector<AccelStruct*> &accs, const vector<Ixn> &ixns) {$/;"	f
+update_active	separateobs.cpp	/^void update_active (const vector<AccelStruct*> &accs, const vector<Ixn> &ixns) {$/;"	f	namespace:SO
+update_indices	mesh.cpp	/^void update_indices (Mesh &mesh) {$/;"	f
+update_nearest_point	nearobs.cpp	/^void update_nearest_point (const Vec3 &x, BVHNode *node, NearPoint &p) {$/;"	f
+update_nearest_point	nearobs.cpp	/^void update_nearest_point (const Vec3 &x, const Face *face, NearPoint &p) {$/;"	f
+update_obstacles	simulation.cpp	/^void update_obstacles (Simulation &sim) {$/;"	f
+update_velocities	simulation.cpp	/^void update_velocities (vector<Mesh*> &meshes, vector<Vec3> &xold, double dt) {$/;"	f
+update_x0	mesh.cpp	/^void update_x0 (Mesh &mesh) {$/;"	f
+v	collision.cpp	/^    Vert *v[4];$/;"	m	struct:Impact	file:
+v	handle.hpp	/^    int c, v, m; \/\/ cloth, vertex, motion indices$/;"	m	struct:Handle
+v	mesh.hpp	/^    Vec3 x, x0, v; \/\/ position, old (collision-free) position, velocity$/;"	m	struct:Vert
+v	mesh.hpp	/^    Vert* v[3]; \/\/ verts$/;"	m	struct:Face
+v	transformation.hpp	/^    Vec3 v;$/;"	m	struct:Quaternion
+val	nearobs.cpp	/^    T val;$/;"	m	struct:Min	file:
+val	proximity.cpp	/^    T val;$/;"	m	struct:Min	file:
+value	constraint.cpp	/^double EqCon::value (int *sign) {$/;"	f	class:EqCon
+value	constraint.cpp	/^double IneqCon::value (int *sign) {$/;"	f	class:IneqCon
+vec3f	bvh.hpp	/^typedef Vec3 vec3f;$/;"	t
+vec_to_mat	blockvectors.hpp	/^Mat<m,n,T> vec_to_mat (const Vec<m*n,T> &a) {$/;"	f
+vel	spline.cpp	/^T Spline<T>::vel (double t) const {$/;"	f	class:Spline
+velocity	simulation.hpp	/^    Vec3 velocity;$/;"	m	struct:Wind
+verbose	dynamicremesh.cpp	/^static const bool verbose = false;$/;"	v	file:
+verbose	physics.cpp	/^static const bool verbose = false;$/;"	v	file:
+verbose	simulation.cpp	/^static const bool verbose = false;$/;"	v	file:
+vert	constraint.hpp	/^    Vert *vert;$/;"	m	struct:EqCon
+vert	handle.hpp	/^    Vert *vert;$/;"	m	struct:Handle
+vert_box	bvh.cpp	/^BOX vert_box (const Vert *vert, bool ccd) {$/;"	f
+vert_positions	mesh.cpp	/^vector<Vec3> vert_positions (const Mesh &mesh) {$/;"	f
+vert_positions	simulation.cpp	/^vector<Vec3> vert_positions (const vector<Mesh*> &meshes) {$/;"	f
+vert_prox	proximity.cpp	/^static vector< Min<Face*> > vert_prox[2];$/;"	v	file:
+vert_velocities	mesh.cpp	/^vector<Vec3> vert_velocities (const Mesh &mesh) {$/;"	f
+vertex	display.cpp	/^void vertex (const Vec2 &x) {$/;"	f
+vertex	display.cpp	/^void vertex (const Vec3 &x) {$/;"	f
+verts	collision.cpp	/^    vector<Vert*> verts;$/;"	m	struct:ImpactZone	file:
+verts	constraint.hpp	/^    Vert *verts[4];$/;"	m	struct:IneqCon
+verts	mesh.hpp	/^    std::vector<Vert*> verts;$/;"	m	struct:Mesh
+verts	separate.cpp	/^    vector<Vert*> verts;$/;"	m	struct:SeparationOpt	file:
+verts	separateobs.cpp	/^    vector<Vert*> verts;$/;"	m	struct:SO::SeparationOpt	file:
+vf_clear_distance	separate.cpp	/^double vf_clear_distance (const Face *face0, const Face *face1, const Vec3 &d,$/;"	f
+vf_clear_distance	separateobs.cpp	/^double vf_clear_distance (const Face *face0, const Face *face1, const Vec3 &d,$/;"	f	namespace:SO
+vf_collision_test	collision.cpp	/^bool vf_collision_test (const Vert *vert, const Face *face, Impact &impact) {$/;"	f
+view	display.cpp	/^struct View {double lat, lon, x_off, y_off;} view;$/;"	v	typeref:struct:View
+violation	constraint.cpp	/^double violation (double value) {return std::max(-value, 0.);}$/;"	f
+volume	bvh.hpp	/^	FORCEINLINE float volume() const { return width()*height()*depth(); }$/;"	f	class:kDOP18
+w	collision.cpp	/^    double w[4];$/;"	m	struct:Impact	file:
+w	constraint.hpp	/^    double w[4];$/;"	m	struct:IneqCon
+w	display.cpp	/^struct Win {int w, h;} win;$/;"	m	struct:Win	file:
+wedge	vectors.hpp	/^template <typename T> T wedge (const Vec<2,T> &u, const Vec<2,T> &v) {return u[0]*v[1] - u[1]*v[0];}$/;"	f
+width	bvh.hpp	/^	FORCEINLINE float width()  const { return _dist[9] - _dist[0]; }$/;"	f	class:kDOP18
+win	display.cpp	/^struct Win {int w, h;} win;$/;"	v	typeref:struct:Win
+wind	simulation.hpp	/^    Wind wind;$/;"	m	struct:Simulation
+wind_force	physics.cpp	/^Vec3 wind_force (const Face *face, const Wind &wind) {$/;"	f
+write_motion_file	mot_parser.cpp	/^void write_motion_file(BodyVector &bodies, const string& filename) {$/;"	f
+write_motion_file	mot_parser.cpp	/^void write_motion_file(BodyVector &bodies, ostream& ostr) {$/;"	f
+x	constraint.hpp	/^    Vec3 x, n;$/;"	m	struct:EqCon
+x	display.cpp	/^struct mouse_state_struct{bool down; int x, y; enum {ROTATE, TRANSLATE, SCALE} func;} mouse_state;$/;"	m	struct:mouse_state_struct	file:
+x	mesh.hpp	/^    Vec3 x, x0, v; \/\/ position, old (collision-free) position, velocity$/;"	m	struct:Vert
+x	nearobs.cpp	/^    Vec3 x;$/;"	m	struct:NearPoint	file:
+x	spline.hpp	/^    struct Point {double t; T x;};$/;"	m	struct:Spline::Point
+x0	handle.hpp	/^    Vec3 x0;$/;"	m	struct:Handle
+x0	mesh.hpp	/^    Vec3 x, x0, v; \/\/ position, old (collision-free) position, velocity$/;"	m	struct:Vert
+x_off	display.cpp	/^struct View {double lat, lon, x_off, y_off;} view;$/;"	m	struct:View	file:
+xold	collision.cpp	/^static vector<Vec3> xold;$/;"	v	file:
+xold	separate.cpp	/^static vector<Vec3> xold;$/;"	v	file:
+xold	separateobs.cpp	/^static vector<Vec3> xold;$/;"	m	namespace:SO	file:
+xold	strainlimiting.cpp	/^    vector<Vec3> xold;$/;"	m	struct:SLOpt	file:
+xold_obs	collision.cpp	/^static vector<Vec3> xold_obs;$/;"	v	file:
+xs	util.hpp	/^    mutable std::vector<double> xs;$/;"	m	struct:Stats
+y	display.cpp	/^struct mouse_state_struct{bool down; int x, y; enum {ROTATE, TRANSLATE, SCALE} func;} mouse_state;$/;"	m	struct:mouse_state_struct	file:
+y_off	display.cpp	/^struct View {double lat, lon, x_off, y_off;} view;$/;"	m	struct:View	file:
+zone	collision.cpp	/^    ImpactZone *zone;$/;"	m	struct:NormalOpt	file:
+zoom_amount	display.cpp	/^double zoom_amount = 1;$/;"	v
+~Constraint	constraint.hpp	/^    virtual ~Constraint () {};$/;"	f	struct:Constraint
+~DeformBVHNode	bvh.cpp	/^DeformBVHNode::~DeformBVHNode()$/;"	f	class:DeformBVHNode
+~DeformBVHTree	bvh.cpp	/^DeformBVHTree::~DeformBVHTree()$/;"	f	class:DeformBVHTree

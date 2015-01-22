@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/wubo/.config/fcitx/conf'
-let g:netrw_dirhist_2='/home/wubo/.vim'
-let g:netrw_dirhist_3='/home/wubo/myProgram/vispack/src/image'
-let g:netrw_dirhist_4='/usr'
-let g:netrw_dirhist_5='/home/wubo/OpenFlipper/OpenFlipper'
-let g:netrw_dirhist_6='/home/wubo/workspace/geoms'

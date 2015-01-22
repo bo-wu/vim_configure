@@ -5,10 +5,10 @@
 SetMacro( 'AUTHOR',      'Bo Wu' )
 SetMacro( 'AUTHORREF',   'Robert' )
 SetMacro( 'COMPANY',     '' )
-SetMacro( 'COPYRIGHT',   'Copyright (c) |YEAR|, |AUTHOR|' )
 SetMacro( 'EMAIL',       'wubo.gfkd@gmail.com' )
 SetMacro( 'LICENSE',     'GNU General Public License' )
-SetMacro( 'ORGANIZATION','Institute of Science and Technology Austria' )
+SetMacro( 'ORGANIZATION','National University of Defense Technology' )
+SetMacro( 'COPYRIGHT',   'Copyright (c) |YEAR|, |AUTHOR|' )
 
 SetStyle( 'C' )
 

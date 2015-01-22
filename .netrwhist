@@ -1,3 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/bwu/rotation/herbert/report'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/media/hub/data/sdu-project/include/gco'
+let g:netrw_dirhist_2='/media/hub/data/sdu-project/result'
+let g:netrw_dirhist_3='/media/hub/wyh-project/TexSyn/texture_transfer/colour_transfer'
+let g:netrw_dirhist_4='/media/hub/wyh-project/retiler-master/src/math'
+let g:netrw_dirhist_5='/home/wubo/glfw-3.0.4/CMake'
+let g:netrw_dirhist_6='/media/hub/project-wubo/iterative_icp/2d_iterative_icp'

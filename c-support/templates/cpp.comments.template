@@ -23,32 +23,24 @@
 == Comments.file description impl == map:cfdi, shortcut:c, start, noindent ==
 // =====================================================================================
 //
-//       Filename:  |FILENAME|
+//       Filename:  |FILENAME|  Version:  1.0  Created:  |DATE| |TIME|
 //
 //    Description:  <CURSOR>
 //
-//        Version:  1.0
-//        Created:  |DATE| |TIME|
-//       Revision:  none
-//       Compiler:  gcc
-//
 //         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
+//      Copyright:  Copyright (c) |YEAR|, |AUTHOR|
 //   Organization:  |ORGANIZATION|
 //
 // =====================================================================================
 == Comments.file description header == map:cfdh, shortcut:h, start, noindent ==
 // =====================================================================================
 //
-//       Filename:  |FILENAME|
+//       Filename:  |FILENAME|  Version:  1.0  Created:  |DATE| |TIME|
 //
 //    Description:  <CURSOR>
 //
-//        Version:  1.0
-//        Created:  |DATE| |TIME|
-//       Revision:  none
-//       Compiler:  gcc
-//
 //         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
+//      Copyright:  Copyright (c) |YEAR|, |AUTHOR|
 //   Organization:  |ORGANIZATION|
 //
 // =====================================================================================
